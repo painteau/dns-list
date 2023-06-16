@@ -1,0 +1,1850 @@
+# Aaflalo
+0.0.0.0 dns.aaflalo.me
+0.0.0.0 dns-nyc.aaflalo.me
+
+# AdGuard
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns-family.adguard.com
+
+# Alekberg
+0.0.0.0 dns.alekberg.net
+0.0.0.0 dns2.alekberg.net
+0.0.0.0 dnsse.alekberg.net
+
+# AliDNS
+0.0.0.0 dns.alidns.com
+
+# Andrews & Arnold
+0.0.0.0 dns.aa.net.uk
+
+# Association 42l
+0.0.0.0 doh.42l.fr
+
+# AT&T
+0.0.0.0 dohtrial.att.net
+
+# BlahDNS
+0.0.0.0 doh-fi.blahdns.com
+0.0.0.0 doh-jp.blahdns.com
+0.0.0.0 doh-de.blahdns.com
+0.0.0.0 doh-sg.blahdns.com
+
+# Brahma World
+0.0.0.0 dns.brahma.world
+
+# Canadian Shield
+0.0.0.0 private.canadianshield.cira.ca
+0.0.0.0 protected.canadianshield.cira.ca
+0.0.0.0 family.canadianshield.cira.ca
+
+# Captnemo
+0.0.0.0 doh.captnemo.in
+
+# Cisco
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.familyshield.opendns.com
+
+# Clean Browsing
+0.0.0.0 family-filter-dns.cleanbrowsing.org
+0.0.0.0 adult-filter-dns.cleanbrowsing.org
+0.0.0.0 security-filter-dns.cleanbrowsing.org
+0.0.0.0 doh.cleanbrowsing.org
+
+# Cloudflare
+0.0.0.0 one.one.one.one
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 dns64.cloudflare-dns.com
+0.0.0.0 security.cloudflare-dns.com
+0.0.0.0 family.cloudflare-dns.com
+
+# Comcast
+0.0.0.0 doh.xfinity.com
+
+# Comodo
+0.0.0.0 ns1.recursive.dnsbycomodo.com
+0.0.0.0 ns2.recursive.dnsbycomodo.com
+
+# Commons-host
+0.0.0.0 commons.host
+
+# ContainerPI
+0.0.0.0 dns.containerpi.com
+
+# Cox
+0.0.0.0 dohdot.coxlab.net
+
+# Crypto.sx
+0.0.0.0 doh.crypto.sx
+0.0.0.0 doh-ipv6.crypto.sx
+
+# Digitale Gesellschaft
+0.0.0.0 dns.digitale-gesellschaft.ch
+
+# Doh.li
+0.0.0.0 doh.li
+
+# DNScrypt (DoH)
+0.0.0.0 dns1.dnscrypt.ca
+0.0.0.0 dns2.dnscrypt.ca
+
+# DNSforge
+0.0.0.0 dnsforge.de
+
+# DNS home
+0.0.0.0 dns.dnshome.de
+
+# DNS lify
+0.0.0.0 doh.dnslify.com
+0.0.0.0 a.ns.dnslify.com
+0.0.0.0 b.ns.dnslify.com
+0.0.0.0 a.safe.ns.dnslify.com
+0.0.0.0 b.safe.ns.dnslify.com
+0.0.0.0 a.family.ns.dnslify.com
+0.0.0.0 b.family.ns.dnslify.com
+
+# DNS Seby
+0.0.0.0 doh.seby.io
+0.0.0.0 doh-2.seby.io
+
+# DNS.SB
+0.0.0.0 doh.dns.sb
+
+# Dyn
+0.0.0.0 resolver1.dyndnsinternetguide.com
+0.0.0.0 resolver2.dyndnsinternetguide.com
+
+# FFmuc
+0.0.0.0 doh.ffmuc.net
+
+# Foundation for Applied Privacy
+0.0.0.0 doh.applied-privacy.net
+
+# GeekDNS
+0.0.0.0 dns.233py.com
+0.0.0.0 i.233py.com
+0.0.0.0 wdns.233py.com
+0.0.0.0 ndns.233py.com
+0.0.0.0 sdns.233py.com
+
+# Google
+0.0.0.0 dns.google
+0.0.0.0 google-public-dns-a.google.com
+0.0.0.0 google-public-dns-b.google.com
+0.0.0.0 dns64.dns.google
+
+# Hostux
+0.0.0.0 dns.hostux.net
+
+# Ibuki
+0.0.0.0 ibuki.cgnat.net
+
+# Ibksturm
+0.0.0.0 ibksturm.synology.me
+
+# Jcdns
+0.0.0.0 jcdns.fun
+
+# Lelux
+0.0.0.0 resolver-eu.lelux.fi
+
+# LibreDNS
+0.0.0.0 doh.libredns.gr
+
+# Mrkaran
+0.0.0.0 dns.mrkaran.dev
+
+# NekomimiRouter
+0.0.0.0 dns.dns-over-https.com
+
+# NextDNS
+0.0.0.0 dns.nextdns.io
+
+# NixNet
+0.0.0.0 uncensored.any.dns.nixnet.xyz
+0.0.0.0 adblock.any.dns.nixnet.xyz
+0.0.0.0 uncensored.lv1.dns.nixnet.xyz
+0.0.0.0 adblock.lv1.dns.nixnet.xyz
+0.0.0.0 uncensored.ny1.dns.nixnet.xyz
+0.0.0.0 adblock.ny1.dns.nixnet.xyz
+0.0.0.0 uncensored.lux1.dns.nixnet.xyz
+0.0.0.0 adblock.lux1.dns.nixnet.xyz
+
+# OpenDNS
+0.0.0.0 resolver1.opendns.com
+0.0.0.0 resolver2.opendns.com
+0.0.0.0 resolver1-fs.opendns.com
+0.0.0.0 resolver2-fs.opendns.com
+0.0.0.0 resolver1.ipv6-sandbox.opendns.com
+0.0.0.0 resolver2.ipv6-sandbox.opendns.com
+
+# OSZX (PumpleX)
+0.0.0.0 dns.oszx.co
+0.0.0.0 dns.pumplex.com
+
+# Pi-DNS
+0.0.0.0 doh.centraleu.pi-dns.com
+0.0.0.0 doh.northeu.pi-dns.com
+0.0.0.0 doh.westus.pi-dns.com
+0.0.0.0 doh.eastus.pi-dns.com
+
+# PowerDNS
+0.0.0.0 doh.powerdns.org
+
+# Qua9
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns11.quad9.net
+0.0.0.0 rpz-public-resolver1.rrdns.pch.net
+0.0.0.0 dns-nosec.quad9.net
+
+# Quad101
+0.0.0.0 dns.twnic.tw
+
+# Rubyfish
+0.0.0.0 v6.rubyfish.cn
+0.0.0.0 dns.rubyfish.cn
+0.0.0.0 ea-dns.rubyfish.cn
+0.0.0.0 uw-dns.rubyfish.cn
+
+# Secure DNS
+0.0.0.0 doh.securedns.eu
+0.0.0.0 ads-doh.securedns.eu
+
+# Snopyta
+0.0.0.0 fi.doh.dns.snopyta.org
+
+# Switch
+0.0.0.0 dns.switch.ch
+
+# Tiarap
+0.0.0.0 doh.tiar.app
+0.0.0.0 doh.tiarap.org
+0.0.0.0 jp.tiar.app
+0.0.0.0 jp.tiarap.org
+
+# t53
+0.0.0.0 dns.t53.de
+
+# Xfinity (Comcast)
+0.0.0.0 doh.xfinity.com
+
+# Others
+0.0.0.0 dns.dnsoverhttps.net
+0.0.0.0 doh.dnswarden.com
+0.0.0.0 doh.appliedprivacy.net
+0.0.0.0 public.dns.iij.jp
+0.0.0.0 jp.gridns.xyz
+0.0.0.0 dns.flatuslifir.is
+0.0.0.0 odvr.nic.cz
+0.0.0.0 rumpelsepp.org
+0.0.0.0 ordns.he.net
+0.0.0.0 rdns.faelix.net
+0.0.0.0 adfree.usableprivacy.net
+
+||use-application-dns.net^
+||cloudflare-dns.com^
+||ethermine.org^$important
+||mask.icloud.com^
+||mask-h2.icloud.com^
+#dns list
+# Aaflalo
+0.0.0.0 dns.aaflalo.me
+0.0.0.0 dns-nyc.aaflalo.me
+# AdGuard
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns-family.adguard.com
+# Alekberg
+0.0.0.0 dns.alekberg.net
+0.0.0.0 dns2.alekberg.net
+0.0.0.0 dnsse.alekberg.net
+# AliDNS
+0.0.0.0 dns.alidns.com
+# Andrews & Arnold
+0.0.0.0 dns.aa.net.uk
+# Association 42l
+0.0.0.0 doh.42l.fr
+# AT&T
+0.0.0.0 dohtrial.att.net
+# BlahDNS
+0.0.0.0 doh-fi.blahdns.com
+0.0.0.0 doh-jp.blahdns.com
+0.0.0.0 doh-de.blahdns.com
+0.0.0.0 doh-sg.blahdns.com
+# Brahma World
+0.0.0.0 dns.brahma.world
+# Canadian Shield
+0.0.0.0 private.canadianshield.cira.ca
+0.0.0.0 protected.canadianshield.cira.ca
+0.0.0.0 family.canadianshield.cira.ca
+# Captnemo
+0.0.0.0 doh.captnemo.in
+# Cisco
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.familyshield.opendns.com
+# Clean Browsing
+0.0.0.0 family-filter-dns.cleanbrowsing.org
+0.0.0.0 adult-filter-dns.cleanbrowsing.org
+0.0.0.0 security-filter-dns.cleanbrowsing.org
+0.0.0.0 doh.cleanbrowsing.org
+# Cloudflare
+0.0.0.0 one.one.one.one
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 dns64.cloudflare-dns.com
+0.0.0.0 security.cloudflare-dns.com
+0.0.0.0 family.cloudflare-dns.com
+# Comcast
+0.0.0.0 doh.xfinity.com
+# Comodo
+0.0.0.0 ns1.recursive.dnsbycomodo.com
+0.0.0.0 ns2.recursive.dnsbycomodo.com
+# Commons-host
+0.0.0.0 commons.host
+# ContainerPI
+0.0.0.0 dns.containerpi.com
+# Cox
+0.0.0.0 dohdot.coxlab.net
+# Crypto.sx
+0.0.0.0 doh.crypto.sx
+0.0.0.0 doh-ipv6.crypto.sx
+# Digitale Gesellschaft
+0.0.0.0 dns.digitale-gesellschaft.ch
+# Doh.li
+0.0.0.0 doh.li
+# DNScrypt (DoH)
+0.0.0.0 dns1.dnscrypt.ca
+0.0.0.0 dns2.dnscrypt.ca
+# DNSforge
+0.0.0.0 dnsforge.de
+# DNS home
+0.0.0.0 dns.dnshome.de
+# DNS lify
+0.0.0.0 doh.dnslify.com
+0.0.0.0 a.ns.dnslify.com
+0.0.0.0 b.ns.dnslify.com
+0.0.0.0 a.safe.ns.dnslify.com
+0.0.0.0 b.safe.ns.dnslify.com
+0.0.0.0 a.family.ns.dnslify.com
+0.0.0.0 b.family.ns.dnslify.com
+# DNS Seby
+0.0.0.0 doh.seby.io
+0.0.0.0 doh-2.seby.io
+# DNS.SB
+0.0.0.0 doh.dns.sb
+# Dyn
+0.0.0.0 resolver1.dyndnsinternetguide.com
+0.0.0.0 resolver2.dyndnsinternetguide.com
+# FFmuc
+0.0.0.0 doh.ffmuc.net
+# Foundation for Applied Privacy
+0.0.0.0 doh.applied-privacy.net
+# GeekDNS
+0.0.0.0 dns.233py.com
+0.0.0.0 i.233py.com
+0.0.0.0 wdns.233py.com
+0.0.0.0 ndns.233py.com
+0.0.0.0 sdns.233py.com
+# Google
+0.0.0.0 dns.google
+0.0.0.0 google-public-dns-a.google.com
+0.0.0.0 google-public-dns-b.google.com
+0.0.0.0 dns64.dns.google
+# Hostux
+0.0.0.0 dns.hostux.net
+# Ibuki
+0.0.0.0 ibuki.cgnat.net
+# Ibksturm
+0.0.0.0 ibksturm.synology.me
+# Jcdns
+0.0.0.0 jcdns.fun
+# Lelux
+0.0.0.0 resolver-eu.lelux.fi
+# LibreDNS
+0.0.0.0 doh.libredns.gr
+# Mrkaran
+0.0.0.0 dns.mrkaran.dev
+# NekomimiRouter
+0.0.0.0 dns.dns-over-https.com
+# NextDNS
+0.0.0.0 dns.nextdns.io
+# NixNet
+0.0.0.0 uncensored.any.dns.nixnet.xyz
+0.0.0.0 adblock.any.dns.nixnet.xyz
+0.0.0.0 uncensored.lv1.dns.nixnet.xyz
+0.0.0.0 adblock.lv1.dns.nixnet.xyz
+0.0.0.0 uncensored.ny1.dns.nixnet.xyz
+0.0.0.0 adblock.ny1.dns.nixnet.xyz
+0.0.0.0 uncensored.lux1.dns.nixnet.xyz
+0.0.0.0 adblock.lux1.dns.nixnet.xyz
+# OpenDNS
+0.0.0.0 resolver1.opendns.com
+0.0.0.0 resolver2.opendns.com
+0.0.0.0 resolver1-fs.opendns.com
+0.0.0.0 resolver2-fs.opendns.com
+0.0.0.0 resolver1.ipv6-sandbox.opendns.com
+0.0.0.0 resolver2.ipv6-sandbox.opendns.com
+# OSZX (PumpleX)
+0.0.0.0 dns.oszx.co
+0.0.0.0 dns.pumplex.com
+# Pi-DNS
+0.0.0.0 doh.centraleu.pi-dns.com
+0.0.0.0 doh.northeu.pi-dns.com
+0.0.0.0 doh.westus.pi-dns.com
+0.0.0.0 doh.eastus.pi-dns.com
+# PowerDNS
+0.0.0.0 doh.powerdns.org
+# Qua9
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns11.quad9.net
+0.0.0.0 rpz-public-resolver1.rrdns.pch.net
+0.0.0.0 dns-nosec.quad9.net
+# Quad101
+0.0.0.0 dns.twnic.tw
+# Rubyfish
+0.0.0.0 v6.rubyfish.cn
+0.0.0.0 dns.rubyfish.cn
+0.0.0.0 ea-dns.rubyfish.cn
+0.0.0.0 uw-dns.rubyfish.cn
+# Secure DNS
+0.0.0.0 doh.securedns.eu
+0.0.0.0 ads-doh.securedns.eu
+# Snopyta
+0.0.0.0 fi.doh.dns.snopyta.org
+# Switch
+0.0.0.0 dns.switch.ch
+# Tiarap
+0.0.0.0 doh.tiar.app
+0.0.0.0 doh.tiarap.org
+0.0.0.0 jp.tiar.app
+0.0.0.0 jp.tiarap.org
+# t53
+0.0.0.0 dns.t53.de
+# Xfinity (Comcast)
+0.0.0.0 doh.xfinity.com
+# Others
+0.0.0.0 dns.dnsoverhttps.net
+0.0.0.0 doh.dnswarden.com
+0.0.0.0 doh.appliedprivacy.net
+0.0.0.0 public.dns.iij.jp
+0.0.0.0 jp.gridns.xyz
+0.0.0.0 dns.flatuslifir.is
+0.0.0.0 odvr.nic.cz
+0.0.0.0 rumpelsepp.org
+0.0.0.0 ordns.he.net
+0.0.0.0 rdns.faelix.net
+0.0.0.0 adfree.usableprivacy.net
+# block firefox application DoH
+0.0.0.0 firefox.dns.nextdns.io
+0.0.0.0 mozilla.cloudflare-dns.com
+#
+# Apple DoH
+0.0.0.0 doh.dns.apple.com.v.aaplimg.com
+0.0.0.0 doh.dns.apple.com
+#
+0.0.0.0 doh.42l.fr
+#
+0.0.0.0 i.233py.com
+0.0.0.0 i.233py.com.a.bdydns.com
+0.0.0.0 opencdn.jomodns.com
+0.0.0.0 dns.233py.com
+0.0.0.0 dns.233py.com.cdn.cloudflare.net
+### following 233py.com need to be checked if still in use
+0.0.0.0 edns.233py.com
+0.0.0.0 ndns.233py.com
+0.0.0.0 sdns.233py.com
+0.0.0.0 wdns.233py.com
+#
+0.0.0.0 dns-gcp.aaflalo.me
+0.0.0.0 dns-nyc.aaflalo.me
+0.0.0.0 dns.aaflalo.me
+0.0.0.0 doh.abmb.win
+0.0.0.0 doh2.abmb.win
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns-family.adguard.com
+0.0.0.0 dns-unfiltered.adguard.com
+0.0.0.0 dns.adguard-dns.com
+0.0.0.0 family.adguard-dns.com
+0.0.0.0 unfiltered.adguard-dns.com
+#
+0.0.0.0 doh.nl.ahadns.net
+0.0.0.0 doh.in.ahadns.net
+0.0.0.0 doh.la.ahadns.net
+0.0.0.0 doh.ny.ahadns.net
+0.0.0.0 doh.pl.ahadns.net
+0.0.0.0 doh.it.ahadns.net
+0.0.0.0 doh.es.ahadns.net
+0.0.0.0 doh.no.ahadns.net
+0.0.0.0 doh.chi.ahadns.net
+0.0.0.0 dot.nl.ahadns.net
+0.0.0.0 dot.in.ahadns.net
+0.0.0.0 dot.la.ahadns.net
+0.0.0.0 dot.ny.ahadns.net
+0.0.0.0 dot.pl.ahadns.net
+0.0.0.0 dot.it.ahadns.net
+0.0.0.0 dot.es.ahadns.net
+0.0.0.0 dot.no.ahadns.net
+0.0.0.0 dot.chi.ahadns.net
+#
+0.0.0.0 dnsnl.alekberg.net
+0.0.0.0 dnsse.alekberg.net
+0.0.0.0 dns.alidns.com
+#
+0.0.0.0 doh.appliedprivacy.net
+0.0.0.0 doh.applied-privacy.net
+0.0.0.0 dot1.applied-privacy.net
+#
+0.0.0.0 doh.armadillodns.net
+0.0.0.0 dohtrial.att.net
+#
+0.0.0.0 doh1.blahdns.com
+0.0.0.0 doh1.b-cdn.net
+0.0.0.0 doh2.blahdns.com
+0.0.0.0 doh2.b-cdn.net
+0.0.0.0 dot-ch.blahdns.com
+0.0.0.0 doh-ch.blahdns.com
+0.0.0.0 dot-fi.blahdns.com
+0.0.0.0 doh-fi.blahdns.com
+0.0.0.0 dot-de.blahdns.com
+0.0.0.0 doh-de.blahdns.com
+0.0.0.0 dot-jp.blahdns.com
+0.0.0.0 doh-jp.blahdns.com
+0.0.0.0 dot-sg.blahdns.com
+0.0.0.0 doh-sg.blahdns.com
+0.0.0.0 doh.bortzmeyer.fr
+0.0.0.0 dns.brahma.world
+0.0.0.0 free.bravedns.com
+0.0.0.0 bravedns.com
+#
+0.0.0.0 doh.captnemo.in
+0.0.0.0 ibuki.cgnat.net
+0.0.0.0 canadianshield.cira.ca
+0.0.0.0 family.canadianshield.cira.ca
+0.0.0.0 private.canadianshield.cira.ca
+0.0.0.0 protected.canadianshield.cira.ca
+#
+0.0.0.0 dns.cloudflare.com
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 one.one.one.one
+0.0.0.0 dns64.cloudflare-dns.com
+0.0.0.0 family.cloudflare-dns.com
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 security.cloudflare-dns.com
+0.0.0.0 cloudflare-gateway.com
+#
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 security-filter-dns.cleanbrowsing.org
+0.0.0.0 adult-filter-dns.cleanbrowsing.org
+0.0.0.0 family-filter-dns.cleanbrowsing.org
+#
+0.0.0.0 dns.cmrg.net
+0.0.0.0 commons.host
+0.0.0.0 dns.containerpi.com
+0.0.0.0 dohdot.coxlab.net
+0.0.0.0 doh.crypto.sx
+#
+0.0.0.0 jit.ddns.net
+0.0.0.0 dns.decloudus.com
+0.0.0.0 doh.defaultroutes.de
+0.0.0.0 dns.developer.li
+0.0.0.0 dns2.developer.li
+0.0.0.0 dns.digitale-gesellschaft.ch
+0.0.0.0 dns1.digitale-gesellschaft.ch
+0.0.0.0 dns2.digitale-gesellschaft.ch
+0.0.0.0 doh.disconnect.app
+0.0.0.0 ns1.recursive.dnsbycomodo.com
+0.0.0.0 ns2.recursive.dnsbycomodo.com
+0.0.0.0 dnsforge.de
+0.0.0.0 dns.google
+0.0.0.0 dns64.dns.google
+0.0.0.0 dns.dnshome.de
+0.0.0.0 dns1.dnscrypt.ca
+0.0.0.0 dns2.dnscrypt.ca
+0.0.0.0 doh.dns.sb
+0.0.0.0 public-dns-a.dns.sb
+0.0.0.0 public-dns-b.dns.sb
+#
+0.0.0.0 doh.dnslify.com
+0.0.0.0 a.ns.dnslify.com
+0.0.0.0 b.ns.dnslify.com
+0.0.0.0 a.safe.ns.dnslify.com
+0.0.0.0 b.safe.ns.dnslify.com
+0.0.0.0 a.family.ns.dnslify.com
+0.0.0.0 b.family.ns.dnslify.com
+#
+0.0.0.0 dns.dnsoverhttps.net
+0.0.0.0 doh.dnswarden.com
+0.0.0.0 doh.li
+#
+0.0.0.0 doh.ffmuc.net
+0.0.0.0 dot.ffmuc.net
+0.0.0.0 rdns.faelix.net
+0.0.0.0 pdns.faelix.net
+0.0.0.0 dns.flatuslifir.is
+#
+0.0.0.0 dns.google.com
+0.0.0.0 google-public-dns-a.google.com
+0.0.0.0 google-public-dns-b.google.com
+#
+0.0.0.0 query.hdns.io
+0.0.0.0 ordns.he.net
+0.0.0.0 dns.hostux.net
+#
+0.0.0.0 opennic.i2pd.xyz
+0.0.0.0 public.dns.iij.jp
+#
+0.0.0.0 jcdns.fun
+#
+0.0.0.0 us1.dns.lavate.ch
+0.0.0.0 eu1.dns.lavate.ch
+0.0.0.0 resolver-eu.lelux.fi
+0.0.0.0 doh.libredns.org
+0.0.0.0 dot.libredns.gr.com
+0.0.0.0 dot.libredns.gr
+0.0.0.0 doh.libredns.gr
+#
+0.0.0.0 adblock.mydns.network
+#
+0.0.0.0 dns.neutopia.org
+0.0.0.0 dns.aa.net.uk
+0.0.0.0 dns.nextdns.io
+0.0.0.0 dns1.nextdns.io
+0.0.0.0 dns2.nextdns.io
+0.0.0.0 odvr.nic.cz
+0.0.0.0 lv1.nixnet.xyz
+0.0.0.0 ny1.nixnet.xyz
+0.0.0.0 lux1.nixnet.xyz
+0.0.0.0 dns.njal.la
+#
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.familyshield.opendns.com
+0.0.0.0 doh.sandbox.opendns.com
+0.0.0.0 resolver1.opendns.com
+0.0.0.0 resolver2.opendns.com
+0.0.0.0 resolver1-fs.opendns.com
+0.0.0.0 resolver2-fs.opendns.com
+0.0.0.0 dns.oszx.co
+#
+0.0.0.0 a.passcloud.xyz
+0.0.0.0 i.passcloud.xyz
+0.0.0.0 doh.post-factum.tk
+0.0.0.0 doh.powerdns.org
+0.0.0.0 rpz-public-resolver1.rrdns.pch.net
+0.0.0.0 dns.pumplex.com
+#
+#
+# alias for dns.quad9.net
+0.0.0.0 rpz-public-resolver1.rrdns.pch.net
+#
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns11.quad9.net
+0.0.0.0 dns12.quad9.net
+0.0.0.0 dns13.quad9.net
+0.0.0.0 dns-nosec.quad9.net
+#
+0.0.0.0 dns.rubyfish.cn
+0.0.0.0 ea-dns.rubyfish.cn
+0.0.0.0 uw-dns.rubyfish.cn
+0.0.0.0 rumpelsepp.org
+0.0.0.0 dns1.ryan-palmer.com
+#
+0.0.0.0 doh.seby.io
+0.0.0.0 doh-2.seby.io
+0.0.0.0 dot.seby.io
+#
+0.0.0.0 dnsovertls.sinodun.com
+0.0.0.0 dnsovertls1.sinodun.com
+0.0.0.0 dnsovertls2.sinodun.com
+0.0.0.0 dnsovertls3.sinodun.com
+0.0.0.0 fi.doh.dns.snopyta.org
+0.0.0.0 fi.dot.dns.snopyta.org
+0.0.0.0 dns.switch.ch
+0.0.0.0 ibksturm.synology.me
+#
+0.0.0.0 dns.t53.de
+0.0.0.0 dns.therifleman.name
+0.0.0.0 doh.tiar.app
+0.0.0.0 dot.tiar.app
+0.0.0.0 doh.tiarap.org
+0.0.0.0 jp.tiar.app
+0.0.0.0 jp.tiarap.org
+0.0.0.0 dns.twnic.tw
+#
+0.0.0.0 dns.wugui.zone
+0.0.0.0 dns-asia.wugui.zone
+#
+0.0.0.0 adfree.usableprivacy.net
+#
+0.0.0.0 doh.xfinity.com
+0.0.0.0 doh.gslb2.xfinity.com
+#
+0.0.0.0 fdns1.dismail.de
+0.0.0.0 fdns2.dismail.de
+#
+0.0.0.0 anycast.censurfridns.dk
+0.0.0.0 deic-lgb.anycast.censurfridns.dk
+0.0.0.0 deic-ore.anycast.censurfridns.dk
+0.0.0.0 kracon.anycast.censurfridns.dk
+0.0.0.0 rgnet-iad.anycast.censurfridns.dk
+0.0.0.0 unicast.censurfridns.dk
+0.0.0.0 anycast.uncensoreddns.org
+0.0.0.0 deic-lgb.anycast.uncensoreddns.org
+0.0.0.0 deic-ore.anycast.uncensoreddns.org
+0.0.0.0 kracon.anycast.uncensoreddns.org
+0.0.0.0 rgnet-iad.anycast.uncensoreddns.org
+0.0.0.0 unicast.uncensoreddns.org
+#
+0.0.0.0 dns.comss.one
+0.0.0.0 dns.east.comss.one
+0.0.0.0 dns-doh.dnsforfamily.com
+0.0.0.0 dns-dot.dnsforfamily.com
+0.0.0.0 asia.dnscepat.id
+0.0.0.0 eropa.dnscepat.id
+0.0.0.0 doh.360.cn
+0.0.0.0 dot.360.cn
+0.0.0.0 doh.pub
+0.0.0.0 dns.pub
+0.0.0.0 dot.pub
+0.0.0.0 kaitain.restena.lu
+0.0.0.0 getdnsapi.net
+0.0.0.0 dns-tls.bitwiseshift.net
+0.0.0.0 ns1.dnsprivacy.at
+0.0.0.0 ns2.dnsprivacy.at
+0.0.0.0 privacydns.go6lab.si
+0.0.0.0 dnsotls.lab.nic.cl
+0.0.0.0 tls-dns-u.odvr.dns-oarc.net
+0.0.0.0 doh.centraleu.pi-dns.com
+0.0.0.0 dot.centraleu.pi-dns.com
+0.0.0.0 doh.northeu.pi-dns.com
+0.0.0.0 dot.northeu.pi-dns.com
+0.0.0.0 doh.westus.pi-dns.com
+0.0.0.0 dot.westus.pi-dns.com
+0.0.0.0 doh.eastus.pi-dns.com
+0.0.0.0 dot.eastus.pi-dns.com
+0.0.0.0 doh.eastau.pi-dns.com
+0.0.0.0 dot.eastau.pi-dns.com
+0.0.0.0 doh.eastas.pi-dns.com
+0.0.0.0 dot.eastas.pi-dns.com
+0.0.0.0 basic.bravedns.com
+0.0.0.0 freedns.controld.com
+0.0.0.0 p0.freedns.controld.com
+0.0.0.0 p1.freedns.controld.com
+0.0.0.0 p2.freedns.controld.com
+0.0.0.0 p3.freedns.controld.com
+0.0.0.0 family.freedns.controld.com
+0.0.0.0 uncensored.freedns.controld.com
+0.0.0.0 doh.mullvad.net
+0.0.0.0 adblock.doh.mullvad.net
+0.0.0.0 chrome.cloudflare-dns.com
+0.0.0.0 dot.xfinity.com
+0.0.0.0 doh.xfinity.com
+0.0.0.0 dot.cox.net
+0.0.0.0 doh.cox.net
+0.0.0.0 dns.sb
+0.0.0.0 8888.google
+0.0.0.0 chromium.dns.nextdns.io
+0.0.0.0 doh.quickline.ch
+0.0.0.0 doh-02.spectrum.com
+0.0.0.0 doh-01.spectrum.com
+#
+0.0.0.0 mask.icloud.com
+0.0.0.0 mask-h2.icloud.com
+#
+0.0.0.0 dandelionsprout.asuscomm.com
+#
+0.0.0.0 basic.rethinkdns.com
+0.0.0.0 max.rethinkdns.com
+#
+0.0.0.0 anycast.dns.nextdns.io
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 one.one.one.one
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns.google.com
+0.0.0.0 dns.google
+0.0.0.0 doh.dns.sb
+0.0.0.0 dns.dnsoverhttps.net
+0.0.0.0 doh.crypto.sx
+0.0.0.0 doh.powerdns.org
+0.0.0.0 doh-jp.blahdns.com
+0.0.0.0 doh-de.blahdns.com
+0.0.0.0 dns.dns-over-https.com
+0.0.0.0 doh.securedns.eu
+0.0.0.0 dns.rubyfish.cn
+0.0.0.0 commons.host
+0.0.0.0 doh1.dnswarden.com
+0.0.0.0 doh2.dnswarden.com
+0.0.0.0 dns.aaflalo.me
+0.0.0.0 dns-gcp.aaflalo.me
+0.0.0.0 doh.seby.io
+0.0.0.0 doh-2.seby.io
+0.0.0.0 doh.appliedprivacy.net
+0.0.0.0 doh.li
+0.0.0.0 doh.armadillodns.net
+0.0.0.0 doh.netweaver.uk
+0.0.0.0 jp.tiar.app
+0.0.0.0 rdns.faelix.net
+0.0.0.0 dns.nextdns.io
+0.0.0.0 dns.digitale-gesellschaft.ch
+0.0.0.0 doh.umbrella.com
+0.0.0.0 doh.dns.apple.com
+0.0.0.0 8888.google
+0.0.0.0 a.vvvglass.com
+0.0.0.0 abel.waringer-atg.de
+0.0.0.0 a-bld.sys-adm.in
+0.0.0.0 adblock.doh.mullvad.net
+0.0.0.0 adfree.usableprivacy.net
+0.0.0.0 anycast.censurfridns.dk
+0.0.0.0 anycast.uncensoreddns.org
+0.0.0.0 atelier.alica.idv.tw
+0.0.0.0 awan.ftp.sh
+0.0.0.0 basic.rethinkdns.com
+0.0.0.0 bld.sys-adm.in
+0.0.0.0 blitz.ahadns.com
+0.0.0.0 blitz.ahadns.com
+0.0.0.0 blitz.ahadns.com
+0.0.0.0 ca.doh.cloudveil.org
+0.0.0.0 chaos-system.de
+0.0.0.0 chewbacca.meganerd.nl
+0.0.0.0 clientdns3.softcom.net
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 cluster-0.gac.edu
+0.0.0.0 cluster-1.gac.edu
+0.0.0.0 cube.neubsi.at
+0.0.0.0 de.teradns.org
+0.0.0.0 dns.7vpn.com
+0.0.0.0 dns.aa.net.uk
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns.alidns.com
+0.0.0.0 dns.artikel10.org
+0.0.0.0 dns.bebasid.com
+0.0.0.0 dns.belnet.be
+0.0.0.0 dns.bitdefender.net
+0.0.0.0 dns.blokada.org
+0.0.0.0 dns.brahma.world
+0.0.0.0 dns.circl.lu
+0.0.0.0 dns.comss.one
+0.0.0.0 dns.decloudus.com
+0.0.0.0 dns.digitale-gesellschaft.ch
+0.0.0.0 dns.digitalsize.net
+0.0.0.0 dns.dnshome.de
+0.0.0.0 dns.dnswarden.com
+0.0.0.0 dns.dyn1.de
+0.0.0.0 dns.eddi.net
+0.0.0.0 dns.flatuslifir.is
+0.0.0.0 dns.froth.zone
+0.0.0.0 dns.google
+0.0.0.0 dns.hinet.net
+0.0.0.0 dns.hostux.net
+0.0.0.0 dns.hostux.net
+0.0.0.0 dns.ipv6dns.com
+0.0.0.0 dns.kawa.tf
+0.0.0.0 dns.kescher.at
+0.0.0.0 dns.keweon.center
+0.0.0.0 dns.lars-lehmann.net
+0.0.0.0 dns.melalandia.tk
+0.0.0.0 dns.ndo.dev
+0.0.0.0 dns.nextdns.io
+0.0.0.0 dns.njal.la
+0.0.0.0 dns.novg.net
+0.0.0.0 dns.paesa.es
+0.0.0.0 dns.pub
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns.rubyfish.cn
+0.0.0.0 dns.slinkyman.net
+0.0.0.0 dns.switch.ch
+0.0.0.0 dns.t53.de
+0.0.0.0 dns.telekom.de
+0.0.0.0 dns.therifleman.name
+0.0.0.0 dns.tls-data.de
+0.0.0.0 dns.twnic.tw
+0.0.0.0 dns.wevpn.com
+0.0.0.0 dns1.dnscrypt.ca
+0.0.0.0 dns1.in-berlin.de
+0.0.0.0 dns1.ryan-palmer.com
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns11.quad9.net
+0.0.0.0 dns64.cloudflare-dns.com
+0.0.0.0 dns64.dns.google
+0.0.0.0 dns8.org
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dnscache.e-utp.net
+0.0.0.0 dns-doh.dnsforfamily.com
+0.0.0.0 dnsenc.com
+0.0.0.0 dns-family.adguard.com
+0.0.0.0 dnsforge.de
+0.0.0.0 dnslow.me
+0.0.0.0 dnsnl.alekberg.net
+0.0.0.0 dns-nyc.aaflalo.me
+0.0.0.0 dnsse.alekberg.net
+0.0.0.0 dns-weblock.wevpn.com
+0.0.0.0 doh.360.cn
+0.0.0.0 doh.applied-privacy.net
+0.0.0.0 doh.bortzmeyer.fr
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 doh.crypto.sx
+0.0.0.0 doh.datahata.by
+0.0.0.0 doh.disconnect.app
+0.0.0.0 doh.dns.sb
+0.0.0.0 doh.dnscrypt.uk
+0.0.0.0 doh.familyshield.opendns.com
+0.0.0.0 doh.ffmuc.net
+0.0.0.0 doh.futa.gg
+0.0.0.0 doh.ibr.cs.tu-bs.de
+0.0.0.0 doh.infotek.net.id
+0.0.0.0 doh.iucc.ac.il
+0.0.0.0 doh.la.ahadns.net
+0.0.0.0 doh.lacontrevoie.fr
+0.0.0.0 doh.li
+0.0.0.0 doh.libredns.gr
+0.0.0.0 doh.lv
+0.0.0.0 doh.micronets.in
+0.0.0.0 doh.mullvad.net
+0.0.0.0 doh.nic.lv
+0.0.0.0 doh.nl.ahadns.net
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.qis.io
+0.0.0.0 doh.rezhajul.io
+0.0.0.0 doh.safesurfer.io
+0.0.0.0 doh.seby.io
+0.0.0.0 doh.syshero.org
+0.0.0.0 doh.tiar.app
+0.0.0.0 doh.tiarap.org
+0.0.0.0 doh.wewitro.net
+0.0.0.0 doh.xcom.pro
+0.0.0.0 doh.xfinity.com
+0.0.0.0 doh-01.spectrum.com
+0.0.0.0 doh-02.spectrum.com
+0.0.0.0 doh1.b-cdn.net
+0.0.0.0 doh-2.seby.io
+0.0.0.0 doh-ch.blahdns.com
+0.0.0.0 doh-de.blahdns.com
+0.0.0.0 doh-fi.blahdns.com
+0.0.0.0 doh-jp.blahdns.com
+0.0.0.0 doh-sg.blahdns.com
+0.0.0.0 dotdns.cryptroute.com
+0.0.0.0 easyhandshake.com
+0.0.0.0 edgy-dns.com
+0.0.0.0 esel.stusta.mhn.de
+0.0.0.0 eu1.dns.lavate.ch
+0.0.0.0 family.canadianshield.cira.ca
+0.0.0.0 family.cloudflare-dns.com
+0.0.0.0 fr-dns1.bancuh.com
+0.0.0.0 freedns.controld.com
+0.0.0.0 fuchur.pentament.de
+0.0.0.0 galileo.math.unipd.it
+0.0.0.0 helios.plan9-dns.com
+0.0.0.0 hitian.me
+0.0.0.0 ibuki.cgnat.net
+0.0.0.0 ines.zfn.uni-bremen.de
+0.0.0.0 iris.woozeno.eu
+0.0.0.0 irre.li
+0.0.0.0 jabber-germany.de
+0.0.0.0 jp.tiar.app
+0.0.0.0 jp.tiarap.org
+0.0.0.0 jp-dns1.bancuh.com
+0.0.0.0 kaitain.restena.lu
+0.0.0.0 kronos.plan9-dns.com
+0.0.0.0 lastentarvike.fi
+0.0.0.0 masters-of-cloud.de
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 muli.stusta.mhn.de
+0.0.0.0 n0.eu
+0.0.0.0 nat64.tuxis.nl
+0.0.0.0 nebula.tru.io
+0.0.0.0 ns1.flodns.net
+0.0.0.0 ns1.i-evolve.net
+0.0.0.0 ns1.opennameserver.org
+0.0.0.0 ns1.opennameserver.org
+0.0.0.0 ns2.hshh.org
+0.0.0.0 ns2.opennameserver.org
+0.0.0.0 ns3.com
+0.0.0.0 ns3.cx
+0.0.0.0 ns3.link
+0.0.0.0 ns3.opennameserver.org
+0.0.0.0 nsc.torgues.net
+0.0.0.0 ny.teradns.org
+0.0.0.0 odvr.nic.cz
+0.0.0.0 opennic.i2pd.xyz
+0.0.0.0 opennic1.eth-services.de
+0.0.0.0 ordns.he.net
+0.0.0.0 pates.services.sfr.fr.casepp.sfr.fr
+0.0.0.0 pluton.plan9-dns.com
+0.0.0.0 pope.cnblw.me
+0.0.0.0 private.canadianshield.cira.ca
+0.0.0.0 protected.canadianshield.cira.ca
+0.0.0.0 public.dns.iij.jp
+0.0.0.0 puredns.org
+0.0.0.0 qlf-doh.inria.fr
+0.0.0.0 query.hdns.io
+0.0.0.0 rdns.faelix.net
+0.0.0.0 res-acst3.absolight.net
+0.0.0.0 resolver.noaddns.com
+0.0.0.0 resolver.r0cket.net
+0.0.0.0 sby-doh.limotelu.org
+0.0.0.0 security.cloudflare-dns.com
+0.0.0.0 sg.teradns.org
+0.0.0.0 sg-dns1.bancuh.com
+0.0.0.0 spacedns.org
+0.0.0.0 timmes.nl
+0.0.0.0 tor.vasi.li
+0.0.0.0 tx.teradns.org
+0.0.0.0 uk.teradns.org
+0.0.0.0 unfiltered.adguard-dns.com
+0.0.0.0 unicast.censurfridns.dk
+0.0.0.0 unicast.uncensoreddns.org
+0.0.0.0 us.doh.cloudveil.org
+0.0.0.0 v.dnscrypt.uk
+0.0.0.0 www.morbitzer.de
+0.0.0.0 wyx.cloud
+0.0.0.0 yarp.lefolgoc.net
+0.0.0.0 zougloub.eu
+0.0.0.0 zrh1-ns01.monzoon.net
+||dns.google
+||cloudflare-dns.com
+||dns9.quad9.net
+||dns10.quad9.net
+||doh.cleanbrowsing.org
+||dns.dnsoverhttps.net
+||doh.crypto.sx
+||doh.powerdns.org
+||doh-jp.blahdns.com
+||dns.dns-over-https.com
+||doh.securedns.eu
+||dns.rubyfish.cn
+||doh.dnswarden.com
+||doh.captnemo.in
+||doh.tiar.app
+||dns.api.globus.org
+||dns.api.integration.globuscs.info
+||dns.api.preview.globus.org
+||dns.api.rackspacecloud.com
+||dns.api.sandbox.globuscs.info
+||dns.api.staging.globuscs.info
+||dns.api.test.globuscs.info
+||dns.beta.gandi.net
+||dns.cloudfiction.eu
+||dns.cloudflare.com
+||dns.eu-frankfurt-1.oraclecloud.com
+||dns.google.com
+||dns.islandnet.com
+||dns.onp.cloud
+||dns.quad9.net
+||dns.tuna.tsinghua.edu.cn
+||dns.uk-london-1.oraclecloud.com
+||dns.us-ashburn-1.oraclecloud.com
+||dns.us-phoenix-1.oraclecloud.com
+||## Canary
+||use-application-dns.net
+||
+||
+||## Cloudflare
+||cloudflare-dns.com
+||*.cloudflare-dns.com
+||
+||one.one.one.one
+||1dot1dot1dot1.cloudflare-dns.com
+||1001.cloudflare-dns.com
+||1111.cloudflare-dns.com
+||
+||family.cloudflare-dns.com
+||*.family.cloudflare-dns.com
+||security.cloudflare-dns.com
+||*.security.cloudflare-dns.com
+||
+||azure.cloudflare-dns.com
+||*.azure.cloudflare-dns.com
+||chrome.cloudflare-dns.com
+||*.chrome.cloudflare-dns.com
+||mozilla.cloudflare-dns.com
+||*.mozilla.cloudflare-dns.com
+||opera.cloudflare-dns.com
+||*.opera.cloudflare-dns.com
+||tor.cloudflare-dns.com
+||*.tor.cloudflare-dns.com
+||
+||dns64.cloudflare-dns.com
+||
+||
+||## Google Public DNS
+||dns.google.com
+||*.dns.google.com
+||dns.google
+||8888.google
+||
+||dns64.dns.google
+||
+||
+||## Quad9
+||dns.quad9.net
+||dns9.quad9.net
+||dns10.quad9.net
+||dns11.quad9.net
+||dns12.quad9.net
+||
+||
+||## NextDNS.io
+||dns.nextdns.io
+||*.dns.nextdns.io
+||dns1.nextdns.io
+||*.dns1.nextdns.io
+||dns2.nextdns.io
+||*.dns2.nextdns.io
+||
+||trr.dns.nextdns.io
+||
+||
+||## CleanBrowsing
+||doh.cleanbrowsing.org
+||adult-filter-dns.cleanbrowsing.org
+||family-filter-dns.cleanbrowsing.org
+||security-filter-dns.cleanbrowsing.org
+||
+||
+||## Digitale Gesellschaft Schweiz
+||dns.digitale-gesellschaft.ch
+||dns1.digitale-gesellschaft.ch
+||dns2.digitale-gesellschaft.ch
+||
+||
+||## AdGuard
+||dns.adguard.com
+||
+||
+||## Cisco OpenDNS
+||doh.opendns.com
+||doh.familyshield.opendns.com
+||
+||
+||## Comcast
+||doh.xfinity.com
+||dot.xfinity.com
+||
+||
+||## DNS.SB
+||doh.dns.sb
+||public-dns-a.dns.sb
+||public-dns-b.dns.sb
+||
+||
+||## Other
+||dns.api.globus.org
+||dns.api.preview.globus.org
+||dns.api.integration.globuscs.info
+||dns.api.sandbox.globuscs.info
+||dns.api.staging.globuscs.info
+||dns.api.test.globuscs.info
+||
+||dns.eu-frankfurt-1.oraclecloud.com
+||dns.uk-london-1.oraclecloud.com
+||dns.us-ashburn-1.oraclecloud.com
+||dns.us-phoenix-1.oraclecloud.com
+||
+||dns-gcp.aaflalo.me
+||dns.aaflalo.me
+||
+||doh.blahdns.com
+||doh-jp.blahdns.com
+||doh-de.blahdns.com
+||
+||dns.dns-over-https.com
+||dns.dnsoverhttps.net
+||
+||dns.api.rackspacecloud.com
+||dns.beta.gandi.net
+||dns.cloudfiction.eu
+||dns.cmrg.net
+||dns.islandnet.com
+||dns.onp.cloud
+||dns.rubyfish.cn
+||dns.tuna.tsinghua.edu.cn
+||doh.captnemo.in
+||doh.crypto.sx
+||doh.dnswarden.com
+||doh.powerdns.org
+||doh.securedns.eu
+||doh.tiar.app
+||adblock.doh.mullvad.net
+||adblock-dot.dnswarden.com
+||adblock.mydns.network
+||adfree.usableprivacy.net
+||ads-doh.securedns.eu
+||adult-filter-dns.cleanbrowsing.org
+||adult-filter-dot.dnswarden.com
+||a.family.ns.dnslify.com
+||a.ns.dnslify.com
+||anycast.censurfridns.dk
+||anycast.uncensoreddns.org
+||a.safe.ns.dnslify.com
+||asia.dnscepat.id
+||basic.bravedns.com
+||b.family.ns.dnslify.com
+||b.ns.dnslify.com
+||bravedns.com
+||b.safe.ns.dnslify.com
+||canadianshield.cira.ca
+||cloudflare-dns.com
+||cloudflare-gateway.com
+||commons.host
+||deic-lgb.anycast.censurfridns.dk
+||deic-lgb.anycast.uncensoreddns.org
+||deic-ore.anycast.censurfridns.dk
+||deic-ore.anycast.uncensoreddns.org
+||dns10.quad9.net
+||dns11.quad9.net
+||dns1.digitale-gesellschaft.ch
+||dns1.dnscrypt.ca
+||dns1.nextdns.io
+||dns2.alekberg.net
+||dns2.developer.li
+||dns2.digitale-gesellschaft.ch
+||dns2.dnscrypt.ca
+||dns2.nextdns.io
+||dns64.cloudflare-dns.com
+||dns64.dns.google
+||dns9.quad9.net
+||dns.aa.net.uk
+||dns.adguard.com
+||dns.alekberg.net
+||dns.alidns.com
+||dns.arapurayil.com
+||dns-asia.wugui.zone
+||dns.bitgeek.in
+||dns.brahma.world
+||dns.cfiec.net
+||dns.cloudflare.com
+||dns.cmrg.net
+||dns.comss.one
+||dns.containerpi.com
+||dns.decloudus.com
+||dns.developer.li
+||dns.digitale-gesellschaft.ch
+||dns.dnshome.de
+||dns.dns-over-https.com
+||dns.dnsoverhttps.net
+||dns-doh.dnsforfamily.com
+||dns-dot.dnsforfamily.com
+||dns.east.comss.one
+||dnses.alekberg.net
+||dns-family.adguard.com
+||dns.flatuslifir.is
+||dnsforge.de
+||dns.google
+||dns.google.com
+||dns.hostux.net
+||dns.larsdebruin.net
+||dns.mrkaran.dev
+||dns.neutopia.org
+||dns.nextdns.io
+||dns.nixnet.xyz
+||dnsnl.alekberg.net
+||dns-nosec.quad9.net
+||dns.oszx.co
+||dnsotls.lab.nic.cl
+||dnsovertls1.sinodun.com
+||dnsovertls2.sinodun.com
+||dnsovertls3.sinodun.com
+||dnsovertls.sinodun.com
+||dns.pub
+||dns.pumplex.com
+||dns.quad9.net
+||dns.rubyfish.cn
+||dnsse.alekberg.net
+||dns.switch.ch
+||dns.t53.de
+||dns-tls.bitwiseshift.net
+||dns.twnic.tw
+||dns-unfiltered.adguard.com
+||dns.wugui.zone
+||doh1.b-cdn.net
+||doh1.blahdns.com
+||doh2.abmb.win
+||doh2.b-cdn.net
+||doh2.blahdns.com
+||doh-2.seby.io
+||doh.360.cn
+||doh.42l.fr
+||doh.abmb.win
+||doh.applied-privacy.net
+||doh.appliedprivacy.net
+||doh.armadillodns.net
+||doh.au.ahadns.net
+||doh.blockerdns.com
+||doh.captnemo.in
+||doh.centraleu.pi-dns.com
+||doh-ch.blahdns.com
+||doh.chi.ahadns.net
+||doh.cleanbrowsing.org
+||doh.crypto.sx
+||doh-de.blahdns.com
+||doh.defaultroutes.de
+||doh.dns.apple.com
+||doh.dnslify.com
+||doh.dns.sb
+||doh.dnswarden.com
+||dohdot.coxlab.net
+||doh.eastas.pi-dns.com
+||doh.eastau.pi-dns.com
+||doh.eastus.pi-dns.com
+||doh.es.ahadns.net
+||doh.familyshield.opendns.com
+||doh.ffmuc.net
+||doh-fi.blahdns.com
+||doh.gslb2.xfinity.com
+||doh.in.ahadns.net
+||doh.it.ahadns.net
+||doh-jp.blahdns.com
+||doh.la.ahadns.net
+||doh.li
+||doh.libredns.gr
+||doh.libredns.org
+||doh.mullvad.net
+||doh.netweaver.uk
+||doh.nl.ahadns.net
+||doh.no.ahadns.net
+||doh.northeu.pi-dns.com
+||doh.ny.ahadns.net
+||doh.opendns.com
+||doh.pi-dns.com
+||doh.pl.ahadns.net
+||doh.powerdns.org
+||doh.pub
+||doh.sandbox.opendns.com
+||doh.seby.io
+||doh.securedns.eu
+||doh-sg.blahdns.com
+||doh.tiarap.org
+||doh.tiar.app
+||dohtrial.att.net
+||doh.westus.pi-dns.com
+||doh.xfinity.com
+||dot.360.cn
+||dot.centraleu.pi-dns.com
+||dot.eastas.pi-dns.com
+||dot.eastau.pi-dns.com
+||dot.eastus.pi-dns.com
+||dot.ffmuc.net
+||dot.libredns.gr.com
+||dot.northeu.pi-dns.com
+||dot.pub
+||dot.seby.io
+||dot.securedns.eu
+||dot.tiar.app
+||dot.westus.pi-dns.com
+||ea-dns.rubyfish.cn
+||ecs-doh.dnswarden.com
+||eropa.dnscepat.id
+||eu1.dns.lavate.ch
+||family.canadianshield.cira.ca
+||family.cloudflare-dns.com
+||family-filter-dns.cleanbrowsing.org
+||fdns1.dismail.de
+||fdns2.dismail.de
+||fi.doh.dns.snopyta.org
+||fi.dot.dns.snopyta.org
+||firefox.dns.nextdns.io
+||free.bravedns.com
+||freedns.controld.com
+||getdnsapi.net
+||google-public-dns-a.google.com
+||google-public-dns-b.google.com
+||ibksturm.synology.me
+||ibuki.cgnat.net
+||jarjar.meganerd.nl
+||jcdns.fun
+||jit.ddns.net
+||jp.tiarap.org
+||jp.tiar.app
+||kaitain.restena.lu
+||kracon.anycast.censurfridns.dk
+||kracon.anycast.uncensoreddns.org
+||lux1.nixnet.xyz
+||lv1.nixnet.xyz
+||mozilla.cloudflare-dns.com
+||ns1.dnsprivacy.at
+||ns1.recursive.dnsbycomodo.com
+||ns2.dnsprivacy.at
+||ns2.recursive.dnsbycomodo.com
+||ny1.nixnet.xyz
+||odvr.nic.cz
+||one.one.one.one
+||ordns.he.net
+||p0.freedns.controld.com
+||p1.freedns.controld.com
+||p2.freedns.controld.com
+||p3.freedns.controld.com
+||pdns.faelix.net
+||privacydns.go6lab.si
+||private.canadianshield.cira.ca
+||protected.canadianshield.cira.ca
+||public-dns-a.dns.sb
+||public-dns-b.dns.sb
+||public.dns.iij.jp
+||rdns.faelix.net
+||resolver1-fs.opendns.com
+||resolver1.opendns.com
+||resolver2-fs.opendns.com
+||resolver2.opendns.com
+||resolver-eu.lelux.fi
+||rgnet-iad.anycast.censurfridns.dk
+||rgnet-iad.anycast.uncensoreddns.org
+||rpz-public-resolver1.rrdns.pch.net
+||rumpelsepp.org
+||security.cloudflare-dns.com
+||security-filter-dns.cleanbrowsing.org
+||steering.nextdns.io
+||tls-dns-u.odvr.dns-oarc.net
+||uncensored-dot.dnswarden.com
+||unicast.censurfridns.dk
+||unicast.uncensoreddns.org
+||us1.dns.lavate.ch
+||uw-dns.rubyfish.cn
+||1dot1dot1dot1.cloudflare-dns.com
+||2.dnscrypt-cert.dns.seby.io
+||1dot1dot1dot1.cloudflare-dns.com
+||adblock.doh.mullvad.net
+||adfree.usableprivacy.net
+||chewbacca.meganerd.nl
+||dns-doh-no-safe-search.dnsforfamily.com
+||dns-doh.dnsforfamily.com
+||dns-family.adguard.com
+||dns.aa.net.uk
+||dns.adguard.com
+||dns.alidns.com
+||dns.arapurayil.com
+||dns.circl.lu
+||dns.cloudflare.com
+||dns.digitale-gesellschaft.ch
+||dns.dnshome.de
+||dns.emeraldonion.org
+||dns.google
+||dns.moulticast.net
+||dns.nextdns.io
+||dns.njal.la
+||dns.switch.ch
+||dns.t53.de
+||dns.therifleman.name
+||dns.twnic.tw
+||dns1.dnscrypt.ca
+||dns1.ryan-palmer.com
+||dns2.dnscrypt.ca
+||dns9.quad9.net
+||dnses.alekberg.net
+||dnsforge.de
+||dnsnl.alekberg.net
+||dnsse.alekberg.net
+||doh-2.seby.io
+||doh-ch.blahdns.com
+||doh-de.blahdns.com
+||doh-fi.blahdns.com
+||doh-ipv6.crypto.sx
+||doh-jp.blahdns.com
+||doh-sg.blahdns.com
+||doh.appliedprivacy.net
+||doh.bortzmeyer.fr
+||doh.cleanbrowsing.org
+||doh.crypto.sx
+||doh.dns.sb
+||doh.ffmuc.net
+||doh.in.ahadns.net
+||doh.la.ahadns.net
+||doh.li
+||doh.libredns.gr
+||doh.linuxsec.org
+||doh.mullvad.net
+||doh.nl.ahadns.net
+||doh.opendns.com
+||doh.post-factum.tk
+||doh.powerdns.org
+||doh.pub
+||doh.seby.io
+||doh.this.web.id
+||doh.tiar.app
+||doh.tiarap.org
+||dohtrial.att.net
+||draco.plan9-ns2.com
+||family.cloudflare-dns.com
+||ibksturm.synology.me
+||jp.tiar.app
+||jp.tiarap.org
+||odvr.nic.cz
+||ordns.he.net
+||public.dns.iij.jp
+||security.cloudflare-dns.com
+||sg.yepdns.com
+||1and1-dns.de
+||233py.com
+||dns.233py.com
+||doh.233py.com
+||edns.233py.com
+||i.233py.com
+||ndns.233py.com
+||sdns.233py.com
+||wdns.233py.com
+||doh.360.cn
+||dot.360.cn
+||doh.42l.fr
+||8888.google
+||dns.aaflalo.me
+||dns-gcp.aaflalo.me
+||dns-nyc.aaflalo.me
+||doh.dns.apple.com.v.aaplimg.com
+||doh.abmb.win
+||doh2.abmb.win
+||dns.adguard.com
+||dns-family.adguard.com
+||dns-unfiltered.adguard.com
+||dns.adguard-dns.com
+||family.adguard-dns.com
+||unfiltered.adguard-dns.com
+||ahadns.net
+||doh.au.ahadns.net
+||dot.au.ahadns.net
+||blitz.ahadns.com
+||doh.chi.ahadns.net
+||dot.chi.ahadns.net
+||doh.es.ahadns.net
+||dot.es.ahadns.net
+||doh.in.ahadns.net
+||dot.in.ahadns.net
+||doh.it.ahadns.net
+||dot.it.ahadns.net
+||doh.la.ahadns.net
+||dot.la.ahadns.net
+||doh.nl.ahadns.net
+||dot.nl.ahadns.net
+||doh.no.ahadns.net
+||dot.no.ahadns.net
+||doh.ny.ahadns.net
+||dot.ny.ahadns.net
+||doh.pl.ahadns.net
+||dot.pl.ahadns.net
+||dnsnl.alekberg.net
+||dnsse.alekberg.net
+||dns.alidns.com
+||httpdns-sc.aliyuncs.com
+||doh.dns.apple.com
+||doh.applied-privacy.net
+||dot1.applied-privacy.net
+||doh.appliedprivacy.net
+||dot1.appliedprivacy.net
+||dns.arapurayil.com
+||2.dnscrypt-cert.dns.arapurayil.com
+||dns.artikel10.org
+||doh.asecdns.com
+||dot.asecdns.com
+||dandelionsprout.asuscomm.com
+||dohtrial.att.net
+||doh1.b-cdn.net
+||doh2.b-cdn.net
+||dns.bebasid.com
+||dns-tls.bitwiseshift.net
+||2.dnscrypt-cert.blahdns.com
+||doh.blahdns.com
+||doh-ch.blahdns.com
+||doh-de.blahdns.com
+||doh-fi.blahdns.com
+||doh-jp.blahdns.com
+||doh-sg.blahdns.com
+||doh1.blahdns.com
+||doh2.blahdns.com
+||dot-ch.blahdns.com
+||dot-de.blahdns.com
+||dot-fi.blahdns.com
+||dot-jp.blahdns.com
+||dot-sg.blahdns.com
+||doh.blockerdns.com
+||example.doh.blockerdns.com
+||dns.blokada.org
+||doh.bortzmeyer.fr
+||dns.brahma.world
+||bravedns.com
+||basic.bravedns.com
+||free.bravedns.com
+||2.dnscrypt-cert.captnemo.in
+||doh.captnemo.in
+||anycast.censurfridns.dk
+||deic-lgb.anycast.censurfridns.dk
+||deic-ore.anycast.censurfridns.dk
+||kracon.anycast.censurfridns.dk
+||rgnet-iad.anycast.censurfridns.dk
+||unicast.censurfridns.dk
+||ibuki.cgnat.net
+||canadianshield.cira.ca
+||family.canadianshield.cira.ca
+||private.canadianshield.cira.ca
+||protected.canadianshield.cira.ca
+||cleanbrowsing.org
+||adult-filter-dns.cleanbrowsing.org
+||doh.cleanbrowsing.org
+||family-filter-dns.cleanbrowsing.org
+||security-filter-dns.cleanbrowsing.org
+||dns.233py.com.cdn.cloudflare.net
+||dns.cloudflare.com
+||cloudflare-dns.com
+||1dot1dot1dot1.cloudflare-dns.com
+||chrome.cloudflare-dns.com
+||dns64.cloudflare-dns.com
+||family.cloudflare-dns.com
+||mozilla.cloudflare-dns.com
+||security.cloudflare-dns.com
+||cloudflare-gateway.com
+||dns.cmrg.net
+||commons.host
+||comss.one
+||comss.ru
+||dns.comss.one
+||dns.east.comss.one
+||freedns.controld.com
+||family.freedns.controld.com
+||p0.freedns.controld.com
+||p1.freedns.controld.com
+||p2.freedns.controld.com
+||p3.freedns.controld.com
+||uncensored.freedns.controld.com
+||doh.cox.net
+||dot.cox.net
+||dohdot.coxlab.net
+||crypto.sx
+||doh.crypto.sx
+||doh-ipv6.crypto.sx
+||jit.ddns.net
+||dns.decloudus.com
+||doh.defaultroutes.de
+||dns.digitale-gesellschaft.ch
+||dns1.digitale-gesellschaft.ch
+||dns2.digitale-gesellschaft.ch
+||dns.digitalsize.net
+||doh.disconnect.app
+||fdns1.dismail.de
+||fdns2.dismail.de
+||dns.google
+||dns.pub
+||dns.sb
+||dns.watch
+||dns64.dns.google
+||doh.dns.sb
+||public-dns-a.dns.sb
+||public-dns-b.dns.sb
+||tls-dns-u.odvr.dns-oarc.net
+||dns.dns-over-https.com
+||dns0.eu
+||kids.dns0.eu
+||zero.dns0.eu
+||ns1.recursive.dnsbycomodo.com
+||ns2.recursive.dnsbycomodo.com
+||2.dnscrypt-cert.shield-2.dnsbycomodo.com
+||asia.dnscepat.id
+||eropa.dnscepat.id
+||dns1.dnscrypt.ca
+||dns2.dnscrypt.ca
+||doh.dnscrypt.uk
+||v.dnscrypt.uk
+||dnsforfamily.com
+||dns-doh.dnsforfamily.com
+||dns-dot.dnsforfamily.com
+||dnsforge.de
+||dns.dnshome.de
+||doh.dnslify.com
+||a.ns.dnslify.com
+||b.ns.dnslify.com
+||a.family.ns.dnslify.com
+||b.family.ns.dnslify.com
+||a.safe.ns.dnslify.com
+||b.safe.ns.dnslify.com
+||dnslow.me
+||dns.dnsoverhttps.net
+||ns1.dnsprivacy.at
+||ns2.dnsprivacy.at
+||adblock-dot.dnswarden.com
+||adult-filter-dot.dnswarden.com
+||dns.dnswarden.com
+||doh.dnswarden.com
+||ecs-doh.dnswarden.com
+||uncensored-dot.dnswarden.com
+||doh.li
+||doh.pub
+||dot.pub
+||resolver1.dyndnsinternetguide.com
+||resolver2.dyndnsinternetguide.com
+||dnscache.e-utp.net
+||edgy-dns.com
+||opennic1.eth-services.de
+||pdns.faelix.net
+||rdns.faelix.net
+||2.dnscrypt-cert.ffmuc.net
+||doh.ffmuc.net
+||dot.ffmuc.net
+||dns.flatuslifir.is
+||fly.io
+||doh.futa.gg
+||dns.futuredns.me
+||getdnsapi.net
+||privacydns.go6lab.si
+||dns.google.com
+||google-public-dns-a.google.com
+||google-public-dns-b.google.com
+||dot.libredns.gr.com
+||jp.gridns.xyz
+||sg.gridns.xyz
+||query.hdns.io
+||ordns.he.net
+||dns.hinet.net
+||hitian.me
+||dns.hostux.net
+||opennic.i2pd.xyz
+||iij.jp
+||public.dns.iij.jp
+||jcdns.fun
+||opencdn.jomodns.com
+||dns.keweon.center
+||doh.lacontrevoie.fr
+||dns.lars-lehmann.net
+||eu1.dns.lavate.ch
+||us1.dns.lavate.ch
+||lelux.fi
+||resolver-eu.lelux.fi
+||doh.libredns.gr
+||dot.libredns.gr
+||sby-doh.limotelu.org
+||chewbacca.meganerd.nl
+||dns.mrkaran.dev
+||doh.mullvad.net
+||adblock.doh.mullvad.net
+||freedom.mydns.network
+||dns.aa.net.uk
+||doh.infotek.net.id
+||dns.neutopia.org
+||dns.nextdns.io
+||anycast.dns.nextdns.io
+||chromium.dns.nextdns.io
+||firefox.dns.nextdns.io
+||dns1.nextdns.io
+||dns2.nextdns.io
+||dnsotls.lab.nic.cl
+||odvr.nic.cz
+||dns.nixnet.xyz
+||adblock.any.dns.nixnet.xyz
+||uncensored.any.dns.nixnet.xyz
+||adblock.lux1.dns.nixnet.xyz
+||uncensored.lux1.dns.nixnet.xyz
+||adblock.lv1.dns.nixnet.xyz
+||uncensored.lv1.dns.nixnet.xyz
+||adblock.ny1.dns.nixnet.xyz
+||uncensored.ny1.dns.nixnet.xyz
+||lux1.nixnet.xyz
+||lv1.nixnet.xyz
+||ny1.nixnet.xyz
+||dns.njal.la
+||one.one.one.one
+||dns.opendns.com
+||2.dnscrypt-cert.opendns.com
+||doh.opendns.com
+||doh.familyshield.opendns.com
+||resolver1.ipv6-sandbox.opendns.com
+||resolver2.ipv6-sandbox.opendns.com
+||resolver1.opendns.com
+||resolver1-fs.opendns.com
+||resolver2.opendns.com
+||resolver2-fs.opendns.com
+||doh.sandbox.opendns.com
+||resolver4.dns.openinternet.io
+||dns.oszx.co
+||2.dnscrypt-cert.oszx.co
+||dns.paesa.es
+||rpz-public-resolver1.rrdns.pch.net
+||doh.centraleu.pi-dns.com
+||dot.centraleu.pi-dns.com
+||doh.pi-dns.com
+||doh.eastas.pi-dns.com
+||dot.eastas.pi-dns.com
+||doh.eastau.pi-dns.com
+||dot.eastau.pi-dns.com
+||doh.eastus.pi-dns.com
+||dot.eastus.pi-dns.com
+||doh.northeu.pi-dns.com
+||dot.northeu.pi-dns.com
+||doh.westeu.pi-dns.com
+||doh.westus.pi-dns.com
+||dot.westus.pi-dns.com
+||helios.plan9-dns.com
+||kronos.plan9-dns.com
+||pluton.plan9-dns.com
+||doh.post-factum.tk
+||doh.powerdns.org
+||dns.pumplex.com
+||2.dnscrypt-cert.pumplex.com
+||puredns.org
+||dns.quad9.net
+||dns-nosec.quad9.net
+||dns10.quad9.net
+||dns11.quad9.net
+||dns12.quad9.net
+||dns13.quad9.net
+||dns9.quad9.net
+||2.dnscrypt-cert.quad9.net
+||doh.quickline.ch
+||dot.quickline.ch
+||kaitain.restena.lu
+||rethinkdns.com
+||basic.rethinkdns.com
+||max.rethinkdns.com
+||sky.rethinkdns.com
+||doh.rezhajul.io
+||dns.rubyfish.cn
+||ea-dns.rubyfish.cn
+||uw-dns.rubyfish.cn
+||v6.rubyfish.cn
+||rumpelsepp.org
+||dns1.ryan-palmer.com
+||doh.safesurfer.io
+||2.dnscrypt-cert.dns.seby.io
+||doh.seby.io
+||doh-2.seby.io
+||dot.seby.io
+||dnsovertls.sinodun.com
+||dnsovertls1.sinodun.com
+||dnsovertls2.sinodun.com
+||dnsovertls3.sinodun.com
+||doh-01.spectrum.com
+||doh-02.spectrum.com
+||switch.ch
+||dns.switch.ch
+||ibksturm.synology.me
+||dns.t53.de
+||iana.tenta.io
+||opennic.tenta.io
+||dns.therifleman.name
+||doh.tiar.app
+||dot.tiar.app
+||jp.tiar.app
+||doh.tiarap.org
+||jp.tiarap.org
+||dns.twnic.tw
+||anycast.uncensoreddns.org
+||deic-lgb.anycast.uncensoreddns.org
+||deic-ore.anycast.uncensoreddns.org
+||kracon.anycast.uncensoreddns.org
+||rgnet-iad.anycast.uncensoreddns.org
+||unicast.uncensoreddns.org
+||adfree.usableprivacy.net
+||doh.this.web.id
+||dns.wevpn.com
+||dns-weblock.wevpn.com
+||dns.wugui.zone
+||dns-asia.wugui.zone
+||doh.xfinity.com
+||dot.xfinity.com
+||2.dnscrypt-cert.browser.yandex.net

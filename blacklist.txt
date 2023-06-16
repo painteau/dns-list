@@ -1,0 +1,7 @@
+||use-application-dns.net^
+||pingplotter.com^
+||www.pingplotter.com^
+||a2-20-254-145.deploy.static.akamaitechnologies.com
+||tinder.holadns.com^$important
+||download.itubego.com^$important
+||use-application-dns.net^

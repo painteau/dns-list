@@ -1,0 +1,16 @@
+@@||widget.weezevent.com^
+@@||shop.sb-components.co.uk^$important
+@@||download.scdn.co^$important
+@@||content.messages.mailchimp.com^$important
+@@||usher.ttvnw.net^$important
+@@||naver.com^
+@@||mqft5nmg.r.eu-west-1.awstrack.me^$important
+@@||tr.clients.boursorama.info^$important
+@@||t.co^$important
+@@||action.metaffiliation.com^$important
+@@||s.click.aliexpress.com^$important
+@@||browser.pipe.aria.microsoft.com^$important
+@@||bpost.cloud^$important
+@@||honeygain.com^
+@@||tms.oracle.com^$important
+@@||tags.tiqcdn.com^$important
