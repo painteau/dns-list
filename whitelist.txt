@@ -14,3 +14,6 @@
 @@||honeygain.com^
 @@||tms.oracle.com^$important
 @@||tags.tiqcdn.com^$important
+@@||tms.oracle.com^$important
+@@||tags.tiqcdn.com^$important
+@@||dealabs.digidip.net^$important
