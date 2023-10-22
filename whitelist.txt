@@ -5,7 +5,6 @@
 @@||usher.ttvnw.net^$important
 @@||naver.com^
 @@||mqft5nmg.r.eu-west-1.awstrack.me^$important
-@@||tr.clients.boursorama.info^$important
 @@||t.co^$important
 @@||action.metaffiliation.com^$important
 @@||s.click.aliexpress.com^$important
@@ -15,3 +14,18 @@
 @@||tms.oracle.com^$important
 @@||tags.tiqcdn.com^$important
 @@||dealabs.digidip.net^$important
+@@||tr.clients.boursorama.info^$important
+@@||obs.line-scdn.net^$important
+@@||liffsdk.line-scdn.net^$important
+@@||gw.line.naver.jp^$important
+@@||nelo2-col.linecorp.com^$important
+@@||today.line.me.edgekey.net^$important
+@@||e1102.a.akamaiedge.net^$important
+@@||liffsdk.line-scdn.net^$important
+@@||api.line.me^$important
+@@||ocsp.apple.com^$important
+@@||ocsp2.apple.com^$important
+@@||amp-api-edge.apps.apple.com^$important
+@@||amp-api-edge.apps.apple.com.edgekey.net^$important
+@@||token.safebrowsing.apple^$important
+@@||safebrowsing.g.aaplimg.com^$important
