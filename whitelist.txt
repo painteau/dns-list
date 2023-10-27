@@ -15,6 +15,9 @@
 @@||tags.tiqcdn.com^$important
 @@||dealabs.digidip.net^$important
 @@||tr.clients.boursorama.info^$important
+@@||pcdn-my.pcloud.com^$important
+@@||manager.tagcommander.com^$important
+@@||cdn.tagcommander.com^$important
 @@||obs.line-scdn.net^$important
 @@||liffsdk.line-scdn.net^$important
 @@||gw.line.naver.jp^$important
