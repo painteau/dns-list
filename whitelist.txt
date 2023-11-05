@@ -6,6 +6,7 @@
 @@||naver.com^
 @@||mqft5nmg.r.eu-west-1.awstrack.me^$important
 @@||t.co^$important
+@@||mailer.pepper.com^$important
 @@||action.metaffiliation.com^$important
 @@||s.click.aliexpress.com^$important
 @@||browser.pipe.aria.microsoft.com^$important
