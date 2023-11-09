@@ -1,4 +1,7 @@
 @@||widget.weezevent.com^
+@@||geekbuying.pxf.io^$important
+@@||dd.leboncoin.fr^$important
+@@||static.criteo.net^$important
 @@||shop.sb-components.co.uk^$important
 @@||download.scdn.co^$important
 @@||content.messages.mailchimp.com^$important
