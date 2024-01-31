@@ -1688,7 +1688,6 @@
 ||doh.ffmuc.net
 ||dot.ffmuc.net
 ||dns.flatuslifir.is
-||fly.io
 ||doh.futa.gg
 ||dns.futuredns.me
 ||getdnsapi.net
