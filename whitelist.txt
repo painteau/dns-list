@@ -1,3 +1,6 @@
+@@||osb-apps-v2.samsungqbe.com^$important
+@@||dealabs2de.digidip.net^
+@@||tracking.eu-service.cainiao.com^
 @@||fly.io^
 @@||widget.weezevent.com^
 @@||geekbuying.pxf.io^$important
