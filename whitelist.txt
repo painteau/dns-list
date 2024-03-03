@@ -1,3 +1,8 @@
+@@||pcdn-www.pcloud.com^$important
+@@||clicks.eventbrite.com^$important
+@@||web.facebook.com^$important
+@@||portal.fb.com^$important
+@@||videos-pub.ftv-publicite.fr^important
 @@||osb-apps-v2.samsungqbe.com^$important
 @@||dealabs2de.digidip.net^
 @@||tracking.eu-service.cainiao.com^
