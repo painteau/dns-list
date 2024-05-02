@@ -5,3 +5,13 @@
 ||tinder.holadns.com^$important
 ||download.itubego.com^$important
 ||use-application-dns.net^
+||chpadblock.com^$important
+||isobuster.net^$important
+||www.isobuster.net^$important
+||cdrecovery.net^$important
+||www.cdrecovery.net^$important
+||isobuster.com^$important
+||www.isobuster.com^$important
+||smart-projects.net^$important
+||www.smart-projects.net^$important
+||pvh.smart-projects.biz^$important
