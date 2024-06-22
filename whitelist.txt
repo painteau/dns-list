@@ -1,3 +1,6 @@
+@@||cdn.cookielaw.org^
+@@||newsletter.lessentiel.fr^$important
+@@||netgate.com^$important
 @@||redir.digidip.net^$important
 @@||videos-pub.ftv-publicite.fr^$important
 @@||rupload.facebook.com^$important
