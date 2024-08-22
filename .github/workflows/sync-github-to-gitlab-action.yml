@@ -1,0 +1,14 @@
+on:
+  push:
+
+jobs:
+  sync-to-gitlab:
+    runs-on: ubuntu-latest
+    name: Sync Repository from GitHub to GitLab
+    steps:
+      - uses: actions/checkout@v3
+      - uses: painteau/sync-github-to-gitlab-action@main
+        with:
+          destination_repository: git@gitlab.com:${{ github.repository }}.git
+          destination_branch_name: main
+          destination_ssh_key: ${{ secrets.GITLAB_SSH_KEY }}
