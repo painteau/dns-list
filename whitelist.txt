@@ -8,6 +8,7 @@
 @@||clicks.eventbrite.com^$important
 @@||web.facebook.com^$important
 @@||portal.fb.com^$important
+@@||media.net^$important
 @@||osb-apps-v2.samsungqbe.com^$important
 @@||dealabs2de.digidip.net^
 @@||tracking.eu-service.cainiao.com^
