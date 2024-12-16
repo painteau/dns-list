@@ -1,4 +1,5 @@
 @@||cdn.cookielaw.org^
+@@||themoneytizer.com^
 @@||newsletter.lessentiel.fr^$important
 @@||netgate.com^$important
 @@||redir.digidip.net^$important
