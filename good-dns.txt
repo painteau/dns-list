@@ -1,15 +1,15 @@
-# Cloudflare DNS (no-logging)
+# Cloudflare DNS (USA, no-logging)
 https://cloudflare-dns.com/dns-query
 tls://1.1.1.1
 tls://1.0.0.1
 
-# Quad9 DNS (no-logging)
+# Quad9 DNS (World, no-logging)
 https://dns.quad9.net/dns-query
 tls://dns.quad9.net
 9.9.9.9
 149.112.112.112
 
-# FDN (French Data Network) (no-logging)
+# FDN (French Data Network) (France,no-logging)
 https://ns0.fdn.fr/dns-query
 https://ns1.fdn.fr/dns-query
 tls://ns0.fdn.fr
@@ -17,18 +17,18 @@ tls://ns1.fdn.fr
 80.67.169.12
 80.67.169.40
 
-# FutureDNS Germany (no-logging)
+# FutureDNS (Germany, no-logging)
 https://dns.de.futuredns.eu.org/dns-query/
 tls://dns.de.futuredns.eu.org
 quic://dns.de.futuredns.eu.org
 162.55.52.228
 
-# DNS.SB (no-logging)
+# DNS.SB (Panama, no-logging)
 https://doh.dns.sb/dns-query
 tls://dot.sb
 185.222.222.222
 
-# Quadrant Security (no-logging)
+# Quadrant Security (USA, no-logging)
 https://doh.qis.io/dns-query
 tls://dns-tls.qis.io
 
@@ -38,19 +38,19 @@ tls://resolver.dnsprivacy.org.uk
 209.250.227.42
 64.176.190.82
 
-# DNS Forge (no-logging)
+# DNS Forge (Germany, no-logging)
 https://dnsforge.de/dns-query
 tls://dnsforge.de
 176.9.93.198
 176.9.1.117
 
-# UncensoredDNS Censurfridns Denmark (no-logging)
+# UncensoredDNS Censurfridns (Denmark, no-logging)
 tls://anycast.censurfridns.dk
 tls://unicast.censurfridns.dk
 91.239.100.100
 89.233.43.71
 
-# UncensoredDNS USA (no-logging)
+# UncensoredDNS (USA, no-logging)
 tls://anycast.uncensoreddns.org:853
 tls://unicast.uncensoreddns.org:853
 https://anycast.uncensoreddns.org/dns-query
@@ -58,7 +58,7 @@ https://unicast.uncensoreddns.org/dns-query
 91.239.100.100
 89.233.43.71
 
-# DNS0.EU : sovereign and GDPR-compliant recursive DNS resolver with a strong focus on security to protect the citizens and organizations of the European Union
+# DNS0.EU (Europe, no-logging)
 https://dns0.eu/
 193.110.81.0
 185.253.5.0
