@@ -1,5 +1,5 @@
 @@||cdn.cookielaw.org^
-@@||netgate.com^
+@@||abc.netgate.com^
 @@||themoneytizer.com^
 @@||newsletter.lessentiel.fr^$important
 @@||netgate.com^$important
