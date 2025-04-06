@@ -14,23 +14,14 @@ https://ns0.fdn.fr/dns-query
 https://ns1.fdn.fr/dns-query
 tls://ns0.fdn.fr
 tls://ns1.fdn.fr
-80.67.169.12
-80.67.169.40
 
 # FutureDNS (Germany, no-logging)
 https://dns.de.futuredns.eu.org/dns-query/
-tls://dns.de.futuredns.eu.org
-quic://dns.de.futuredns.eu.org
-162.55.52.228
 
 # DNS.SB (Panama, no-logging)
 https://doh.dns.sb/dns-query
 tls://dot.sb
 185.222.222.222
-
-# Quadrant Security (USA, no-logging)
-https://doh.qis.io/dns-query
-tls://dns-tls.qis.io
 
 # UK DNS Privacy Project (no-logging)
 https://resolver.dnsprivacy.org.uk/dns-query
@@ -43,20 +34,6 @@ https://dnsforge.de/dns-query
 tls://dnsforge.de
 176.9.93.198
 176.9.1.117
-
-# UncensoredDNS Censurfridns (Denmark, no-logging)
-tls://anycast.censurfridns.dk
-tls://unicast.censurfridns.dk
-91.239.100.100
-89.233.43.71
-
-# UncensoredDNS (USA, no-logging)
-tls://anycast.uncensoreddns.org:853
-tls://unicast.uncensoreddns.org:853
-https://anycast.uncensoreddns.org/dns-query
-https://unicast.uncensoreddns.org/dns-query
-91.239.100.100
-89.233.43.71
 
 # DNS0.EU (Europe, no-logging)
 https://dns0.eu/
