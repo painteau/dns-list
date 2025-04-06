@@ -1,57 +1,98 @@
+! == Cookie consent and compliance services ==
 @@||cdn.cookielaw.org^
+
+! == Netgate services (firewall, pfSense, etc.) ==
 @@||abc.netgate.com^
-@@||themoneytizer.com^
-@@||newsletter.lessentiel.fr^$important
 @@||netgate.com^$important
+
+! == Advertising and monetization platforms ==
+@@||themoneytizer.com^
 @@||redir.digidip.net^$important
-@@||videos-pub.ftv-publicite.fr^$important
-@@||rupload.facebook.com^$important
-@@||pcdn-www.pcloud.com^$important
-@@||clicks.eventbrite.com^$important
-@@||web.facebook.com^$important
-@@||portal.fb.com^$important
-@@||media.net^$important
-@@||osb-apps-v2.samsungqbe.com^$important
 @@||dealabs2de.digidip.net^
-@@||tracking.eu-service.cainiao.com^
-@@||fly.io^
-@@||widget.weezevent.com^
-@@||geekbuying.pxf.io^$important
-@@||dd.leboncoin.fr^$important
+@@||dealabs.digidip.net^$important
+@@||media.net^$important
 @@||static.criteo.net^$important
-@@||shop.sb-components.co.uk^$important
-@@||download.scdn.co^$important
-@@||content.messages.mailchimp.com^$important
-@@||usher.ttvnw.net^$important
-@@||naver.com^
-@@||commander1.com^
-@@||mqft5nmg.r.eu-west-1.awstrack.me^$important
-@@||t.co^$important
-@@||mailer.pepper.com^$important
 @@||action.metaffiliation.com^$important
 @@||s.click.aliexpress.com^$important
 @@||click.linksynergy.com^$important
-@@||browser.pipe.aria.microsoft.com^$important
-@@||bpost.cloud^$important
-@@||honeygain.com^
-@@||tms.oracle.com^$important
-@@||tags.tiqcdn.com^$important
-@@||dealabs.digidip.net^$important
-@@||tr.clients.boursorama.info^$important
+
+! == Email marketing and tracking ==
+@@||newsletter.lessentiel.fr^$important
+@@||content.messages.mailchimp.com^$important
+@@||mailer.pepper.com^$important
+@@||mqft5nmg.r.eu-west-1.awstrack.me^$important
+
+! == Event and ticketing platforms ==
+@@||clicks.eventbrite.com^$important
+@@||widget.weezevent.com^
+
+! == Facebook / Meta services ==
+@@||rupload.facebook.com^$important
+@@||web.facebook.com^$important
+@@||portal.fb.com^$important
+
+! == Cloud storage and download services ==
+@@||pcdn-www.pcloud.com^$important
 @@||pcdn-my.pcloud.com^$important
-@@||manager.tagcommander.com^$important
-@@||cdn.tagcommander.com^$important
+@@||download.scdn.co^$important
+
+! == Samsung apps services ==
+@@||osb-apps-v2.samsungqbe.com^$important
+
+! == Logistics and parcel tracking ==
+@@||tracking.eu-service.cainiao.com^
+@@||dd.leboncoin.fr^$important
+@@||bpost.cloud^$important
+
+! == Shopping and affiliate platforms ==
+@@||geekbuying.pxf.io^$important
+@@||shop.sb-components.co.uk^$important
+@@||commander1.com^
+
+! == Developer or cloud platforms ==
+@@||fly.io^
+
+! == Twitch streaming content ==
+@@||usher.ttvnw.net^$important
+
+! == Naver / LINE (Korean messaging & web services) ==
+@@||naver.com^
 @@||obs.line-scdn.net^$important
 @@||liffsdk.line-scdn.net^$important
 @@||gw.line.naver.jp^$important
 @@||nelo2-col.linecorp.com^$important
 @@||today.line.me.edgekey.net^$important
-@@||e1102.a.akamaiedge.net^$important
-@@||liffsdk.line-scdn.net^$important
 @@||api.line.me^$important
+
+! == Apple-related services ==
 @@||ocsp.apple.com^$important
 @@||ocsp2.apple.com^$important
 @@||amp-api-edge.apps.apple.com^$important
 @@||amp-api-edge.apps.apple.com.edgekey.net^$important
 @@||token.safebrowsing.apple^$important
 @@||safebrowsing.g.aaplimg.com^$important
+
+! == Microsoft telemetry or safe browsing ==
+@@||browser.pipe.aria.microsoft.com^$important
+
+! == Oracle tag manager ==
+@@||tms.oracle.com^$important
+
+! == TagCommander (tag management system) ==
+@@||manager.tagcommander.com^$important
+@@||cdn.tagcommander.com^$important
+
+! == Boursorama (analytics/tracking) ==
+@@||tr.clients.boursorama.info^$important
+
+! == Honeygain (passive income network) ==
+@@||honeygain.com^
+
+! == Twitter shortlinks ==
+@@||t.co^$important
+
+! == Tiqcdn (Tealium or similar tag manager) ==
+@@||tags.tiqcdn.com^$important
+
+! == Akamai (Apple/CDN service) ==
+@@||e1102.a.akamaiedge.net^$important
