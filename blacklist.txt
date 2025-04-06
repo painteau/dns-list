@@ -1,11 +1,21 @@
+! == DNS over HTTPS / DoH disabling domains ==
 ||use-application-dns.net^
+
+! == Network monitoring and diagnostics ==
 ||pingplotter.com^
 ||www.pingplotter.com^
 ||a2-20-254-145.deploy.static.akamaitechnologies.com
+
+! == Privacy / DNS proxying (e.g., Tinder proxy through holadns) ==
 ||tinder.holadns.com^$important
+
+! == File downloader / YouTube downloader ==
 ||download.itubego.com^$important
-||use-application-dns.net^
+
+! == AdBlock detection / bypass test site ==
 ||chpadblock.com^$important
+
+! == Data recovery software and websites ==
 ||isobuster.net^$important
 ||www.isobuster.net^$important
 ||cdrecovery.net^$important
