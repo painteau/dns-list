@@ -6,6 +6,7 @@
 @@||netgate.com^$important
 
 ! == Advertising and monetization platforms ==
+@@||googleapis.com^
 @@||themoneytizer.com^
 @@||redir.digidip.net^$important
 @@||dealabs2de.digidip.net^
