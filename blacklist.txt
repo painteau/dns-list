@@ -15,6 +15,15 @@
 ! == AdBlock detection / bypass test site ==
 ||chpadblock.com^$important
 
+! == Cosmetic filtering (hides ad elements) ==
+adblock.turtlecute.org##.adbox.banner_ads.adsbox
+d3ward.github.io##.textads
+
+! == Script blocking for AdBlock test support ==
+/ads.js$script,first-party,domain=adblock.turtlecute.org|d3ward.github.io
+/pagead.js$script,first-party,domain=adblock.turtlecute.org|d3ward.github.io
+/widget/ads.$script,first-party,domain=adblock.turtlecute.org|d3ward.github.io
+
 ! == Data recovery software and websites ==
 ||isobuster.net^$important
 ||www.isobuster.net^$important
