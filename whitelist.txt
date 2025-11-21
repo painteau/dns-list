@@ -5,6 +5,7 @@
 @@||abc.netgate.com^
 @@||netgate.com^$important
 
+
 ! == Advertising and monetization platforms ==
 @@||googleapis.com^
 @@||themoneytizer.com^
@@ -97,3 +98,6 @@
 
 ! == Akamai (Apple/CDN service) ==
 @@||e1102.a.akamaiedge.net^$important
+
+! == Self tracking ==
+@@||analytics.gochu.fr^$important
