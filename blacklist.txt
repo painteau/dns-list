@@ -1,3 +1,7 @@
+||tools.mouseflow.com^
+||browser.sentry-cdn.com^
+||metrika.yandex.ru^
+
 ! == DNS over HTTPS / DoH disabling domains ==
 ||use-application-dns.net^
 
