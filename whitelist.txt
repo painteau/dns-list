@@ -45,6 +45,7 @@
 @@||tracking.eu-service.cainiao.com^
 @@||dd.leboncoin.fr^$important
 @@||bpost.cloud^$important
+@@||t.notif-colissimo-laposte.info^$important
 
 ! == Shopping and affiliate platforms ==
 @@||geekbuying.pxf.io^$important
