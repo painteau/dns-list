@@ -5,6 +5,10 @@
 @@||abc.netgate.com^
 @@||netgate.com^$important
 
+! == Claude ==
+@@||featureassets.org^
+@@||cdn.segment.com^
+
 
 ! == Advertising and monetization platforms ==
 @@||googleapis.com^
