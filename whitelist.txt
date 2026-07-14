@@ -58,6 +58,7 @@
 
 ! == Developer or cloud platforms ==
 @@||fly.io^
+@@||sentry.io^$important
 
 ! == Twitch streaming content ==
 @@||usher.ttvnw.net^$important
