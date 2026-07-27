@@ -107,3 +107,6 @@
 
 ! == Self tracking ==
 @@||analytics.gochu.fr^$important
+
+! == Google AdMob (app management) ==
+@@||apps.admob.com^
