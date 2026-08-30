@@ -1,4 +1,7 @@
 on:
+  # Toujours declenchable a la main, filet de securite : permet de rejouer ce
+  # workflow sans dependre de son declencheur automatique.
+  workflow_dispatch:
   push:
 
 jobs:
