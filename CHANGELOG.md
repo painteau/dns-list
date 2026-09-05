@@ -12,6 +12,8 @@ L'historique git reste la source de vérité pour ce qui précède.
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-09-05
+
 ### Ajouté
 
 - **Convention changelog du parc posée sur ce dépôt** : ce fichier, les hooks `pre-commit` et
