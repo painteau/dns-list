@@ -1,33 +1,61 @@
+# Resolveurs DNS publics recommandes, sans journalisation.
+#
+# Chaque entree a ete testee par une vraie requete DNS, pas par un test de port.
+# Rejouer la verification : python3 scripts/verifier-resolveurs.py
+# Un resolveur n'est liste que sur les transports qu'il sert reellement : plusieurs
+# fournisseurs ci-dessous refusent volontairement le DNS en clair sur le port 53,
+# les inscrire quand meme donnerait une liste qui a l'air plus riche et qui marche moins.
+#
+# Derniere verification complete : 2026-09-06
+
 # Cloudflare DNS (USA, no-logging)
 https://cloudflare-dns.com/dns-query
 tls://1.1.1.1
 tls://1.0.0.1
 
 # Quad9 DNS (World, no-logging)
+# Le point d'acces DoH exige HTTP/2 et repond 505 en HTTP/1.1, ce n'est pas une panne.
 https://dns.quad9.net/dns-query
 tls://dns.quad9.net
 9.9.9.9
 149.112.112.112
 
-# FDN (French Data Network) (France,no-logging)
+# FDN (French Data Network) (France, no-logging)
+# Meme exigence HTTP/2 que Quad9. Chiffre uniquement : les resolveurs en clair de
+# FDN ne repondent pas hors de ses reseaux, ils ne sont donc pas listes ici.
 https://ns0.fdn.fr/dns-query
 https://ns1.fdn.fr/dns-query
 tls://ns0.fdn.fr
 tls://ns1.fdn.fr
 
-# FutureDNS (Germany, no-logging)
-https://dns.de.futuredns.eu.org/dns-query/
+# DNS4EU (Europe, no-logging)
+# Resolveur europeen porte par un consortium finance par l'UE. Ajoute le 2026-09-06
+# en remplacement de dns0.eu, dont l'equipe le recommande elle-meme dans son avis
+# de fermeture. Variante "unfiltered" : aucun filtrage de contenu applique.
+https://unfiltered.joindns4.eu/dns-query
+tls://unfiltered.joindns4.eu
+86.54.11.100
+86.54.11.200
+
+# Mullvad DNS (Sweden, no-logging)
+# Chiffre uniquement, par choix de l'operateur : le port 53 en clair repond REFUSED.
+https://dns.mullvad.net/dns-query
+tls://dns.mullvad.net
+
+# Applied Privacy (Austria, no-logging)
+# Chiffre uniquement.
+https://doh.applied-privacy.net/query
+tls://dot1.applied-privacy.net
+
+# Digitale Gesellschaft (Switzerland, no-logging)
+# Chiffre uniquement.
+https://dns.digitale-gesellschaft.ch/dns-query
+tls://dns.digitale-gesellschaft.ch
 
 # DNS.SB (Panama, no-logging)
 https://doh.dns.sb/dns-query
 tls://dot.sb
 185.222.222.222
-
-# UK DNS Privacy Project (no-logging)
-https://resolver.dnsprivacy.org.uk/dns-query
-tls://resolver.dnsprivacy.org.uk
-209.250.227.42
-64.176.190.82
 
 # DNS Forge (Germany, no-logging)
 https://dnsforge.de/dns-query
@@ -35,7 +63,14 @@ tls://dnsforge.de
 176.9.93.198
 176.9.1.117
 
-# DNS0.EU (Europe, no-logging)
-https://dns0.eu/
-193.110.81.0
-185.253.5.0
+# ---------------------------------------------------------------------------
+# Retires le 2026-09-06, conserves ici pour ne pas etre reproposes par erreur
+#
+# DNS0.EU        service arrete fin octobre 2025 par son operateur, faute de
+#                ressources. Toutes ses machines repondent NXDOMAIN et ses IP
+#                anycast 193.110.81.0 / 185.253.5.0 ne repondent plus.
+# FutureDNS      dns.de.futuredns.eu.org : le domaine parent lui-meme est en
+#                SERVFAIL, la zone n'est plus servie.
+# UK DNS Privacy resolver.dnsprivacy.org.uk : NXDOMAIN alors que le domaine
+#   Project      parent existe encore, et ses deux IP ne repondent plus.
+# ---------------------------------------------------------------------------

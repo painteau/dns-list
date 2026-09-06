@@ -1,0 +1,64 @@
+name: Verification des resolveurs
+
+# Pourquoi ce workflow : good-dns.txt a passe pres de dix-huit mois sans etre
+# revu, et trois de ses huit fournisseurs avaient disparu entre-temps sans que
+# rien ne le signale (dns0.eu a ferme, FutureDNS et UK DNS Privacy Project ont
+# perdu leur zone). Une liste de resolveurs se perime en silence : personne ne
+# s'en apercoit tant qu'on ne bascule pas dessus, et ce jour-la on n'a plus de DNS.
+#
+# Le job echoue quand une entree ne repond plus. Il ne corrige rien tout seul :
+# un echec peut venir d'une panne passagere cote fournisseur, la decision de
+# retirer une entree reste humaine.
+
+on:
+  schedule:
+    # Tous les lundis a 06h00 UTC. Une liste de resolveurs bouge a l'echelle du
+    # mois, un passage hebdomadaire suffit largement a rattraper une fermeture.
+    - cron: '0 6 * * 1'
+  # Toujours declenchable a la main, filet de securite : permet de rejouer ce
+  # workflow sans dependre de son declencheur automatique.
+  workflow_dispatch:
+  push:
+    # Sur modification de la liste ou du verificateur uniquement : ajouter un
+    # resolveur mort doit se voir tout de suite, pas au lundi suivant.
+    paths:
+      - 'good-dns.txt'
+      - 'scripts/verifier-resolveurs.py'
+      - '.github/workflows/verifier-resolveurs.yml'
+
+jobs:
+  verifier:
+    name: good-dns.txt repond encore
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verifier que curl parle HTTP/2
+        # Sans client HTTP/2, les points d'acces DoH qui l'exigent (Quad9, FDN)
+        # ressortent en "indetermine" et le controle ne verifie plus grand-chose.
+        # On prefere echouer ici, franchement, qu'afficher un vert creux.
+        run: |
+          curl --version
+          curl --version | grep -q HTTP2 || {
+            echo "::error::curl sans support HTTP/2, les verdicts DoH seraient indetermines"
+            exit 1
+          }
+
+      - name: Interroger chaque resolveur
+        id: verification
+        run: |
+          set -o pipefail
+          python3 scripts/verifier-resolveurs.py | tee rapport.txt
+
+      - name: Publier le rapport dans le resume du job
+        # Volontairement en if:always() : le rapport est surtout utile quand le
+        # job vient d'echouer.
+        if: always()
+        run: |
+          {
+            echo '## Etat des resolveurs de good-dns.txt'
+            echo
+            echo '```'
+            cat rapport.txt 2>/dev/null || echo 'Aucun rapport produit.'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

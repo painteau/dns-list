@@ -1847,3 +1847,20 @@
 ||doh.xfinity.com
 ||dot.xfinity.com
 ||2.dnscrypt-cert.browser.yandex.net
+
+# DNS4EU (ajoute le 2026-09-06)
+# Resolveur europeen mis en service en 2025, activement recommande comme
+# remplacant de dns0.eu : c'est donc la voie de contournement vers laquelle un
+# appareil du parc a le plus de chances de basculer aujourd'hui, et elle etait
+# absente de ce fichier.
+# Seuls les noms sont listes, volontairement. Ce fichier est consomme par AdGuard
+# Home, qui filtre des requetes DNS : il ne peut rien contre un client configure
+# en dur sur l'IP 86.54.11.100, qui ne resout aucun nom. Bloquer par IP releve de
+# pfSense, pas d'une liste DNS, et l'ecrire ici donnerait des regles inertes que
+# l'on croirait protectrices.
+||joindns4.eu
+||unfiltered.joindns4.eu
+||protective.joindns4.eu
+||child.joindns4.eu
+||noads.joindns4.eu
+||child-noads.joindns4.eu
