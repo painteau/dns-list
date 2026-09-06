@@ -19,11 +19,13 @@ on:
   # workflow sans dependre de son declencheur automatique.
   workflow_dispatch:
   push:
-    # Sur modification de la liste ou du verificateur uniquement : ajouter un
+    # Sur modification d'une liste ou d'un verificateur uniquement : ajouter un
     # resolveur mort doit se voir tout de suite, pas au lundi suivant.
     paths:
       - 'good-dns.txt'
-      - 'scripts/verifier-resolveurs.py'
+      - 'adobe.txt'
+      - 'nintendo.txt'
+      - 'scripts/**'
       - '.github/workflows/verifier-resolveurs.yml'
 
 jobs:
@@ -51,8 +53,8 @@ jobs:
           python3 scripts/verifier-resolveurs.py | tee rapport.txt
 
       - name: Publier le rapport dans le resume du job
-        # Volontairement en if:always() : le rapport est surtout utile quand le
-        # job vient d'echouer.
+        # Volontairement en if:always() : le rapport est surtout utile quand
+        # l'etape precedente vient d'echouer.
         if: always()
         run: |
           {
@@ -62,3 +64,14 @@ jobs:
             cat rapport.txt 2>/dev/null || echo 'Aucun rapport produit.'
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
+
+  amont:
+    name: adobe.txt et nintendo.txt suivent leur amont
+    runs-on: ubuntu-latest
+    # Job separe du precedent, volontairement : une source amont injoignable ne
+    # doit pas masquer l'etat des resolveurs, et inversement.
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Comparer avec les projets amont
+        run: python3 scripts/verifier-amont.py

@@ -1,3 +1,19 @@
+# Adresses .onion et domaines de revente de donnees volees.
+#
+# Ce fichier n'a pas de source amont : il a ete cree d'un seul tenant et n'a
+# jamais ete resynchronise avec quoi que ce soit. Il n'y a donc rien a en
+# rafraichir automatiquement, contrairement a adobe.txt et nintendo.txt.
+#
+# Revision du 2026-09-06 : correction de defauts qui rendaient certaines
+# regles inoperantes (voir CHANGELOG.md), aucun ajout.
+#
+# A ARBITRER : 545 des 1198 regles visent des adresses .onion de
+# deuxieme generation (16 caracteres). Tor a coupe definitivement le support
+# des services v2 en octobre 2021 : ces adresses ne sont joignables par
+# personne, quel que soit le client. Elles ne genent pas, mais elles
+# representent pres de la moitie du fichier. Suppression non faite ici,
+# c'est une decision et pas un correctif.
+
 ||track.youniversalmedia.com^
 ||he22pncoselnm54h.onion^
 ||cardsnvzjw7emmad.onion^
@@ -82,7 +98,7 @@
 ||asap4u2ihsunfdsumm66pmado3mt3lemdiu3fbx5b7wj5hb3xpgmwkqd.onion^
 ||asap4u7rq4tyakf5gdahmj2c77blwc4noxnsppp5lzlhk7x34x2e22yd.onion^
 ||aseanm2r6znqjuackec6j7yiauyq4fcvghmskixd4xqbkvdos6eu6qyd.onion^
-||asap2uvigi7qs6p4nkoa6ioisb5uji7m43oycj3jomeoxiz5rky5ovqdonion^
+||asap2uvigi7qs6p4nkoa6ioisb5uji7m43oycj3jomeoxiz5rky5ovqd.onion^
 ||asap4g7boedkl3fxbnf2unnnr6kpxnwoewzw4vakaxiuzfdo5xpmy6ad.onion^
 ||asiatrfnrlfibkqz.onion^
 ||assassinuyy7h425.onion^
@@ -107,11 +123,10 @@
 ||aannwx6fzpwniruq.onion^
 ||berlusconifsfwkp.onion^
 ||zsyvom262oiaoc6es7bgg66xieyil6nqkh7jn5ntraghpqgudbcl3vad.onion^
-||hp4eyjkslfxsleb.onion
+||hp4eyjkslfxsleb.onion^
 ||brosb6qlq7gkrxjuicbcdstpy2q3fbiwby2f7uzbjfh5guweggx3gayd.onion^
 ||bbbitgkcgods6tlt.onion^
-||brosb6qlq7gkrxjuicbcdstpy2q3fbiwby2f7uzbjfh5guweggx3gayd.onion^
-||bestteermb42clir6ux7xm76d4jjodh3fpahjqgbddbmfrgp4skg2wqd.onion
+||bestteermb42clir6ux7xm76d4jjodh3fpahjqgbddbmfrgp4skg2wqd.onion^
 ||6yjog27kpr5tvseyqguxmmx64hyyoa3zclvyivrsyxk3grvttbkcknid.onion^
 ||rlzadh4g3ds6nfm5qopli3ahenbpbx2vclf5kqsrhbraooyqsxpextad.onion^
 ||bestcc5xpfjihry2nlc25pj5ujxzrezrjh4egzugvs3u2eopjk5u5zid.onion^
@@ -246,7 +261,6 @@
 ||cannazonceujdye3.onion^
 ||cannazondp5fciis.onion^
 ||cannazon4gbjluus.onion^
-||cannazondp5fciis.onion^
 ||57iwpifn5xr7bim3lm4lywjuz45za4cbwusyerh362jiqnoraijzh2id.onion^
 ||7ympuwybhdedjddibndoroyur3frvc27bo5ipicgozywejsdq7wvvbqd.onion^
 ||capitaavobvq35sv.onion^
@@ -270,14 +284,12 @@
 ||f6wqhy6ii7metm45m4mg6yg76yytik5kxe6h7sestyvm6g7lcw3n4qad.onion^
 ||xb635ncim63dlahg.onion^
 ||bozn6p5iv7qb56nizxvmoywfoyvmayaezgqxurpsy6d42zawzw2azhqd.onion^
-||xb635ncim63dlahg.onion^
 ||rcwy35r5etemhf7mrl4zl3nga7gk5lf2yubxnbdog6tktbzhz2is5had.onion^
 ||mgybzfrldjn5drzv537skh7kgwgbq45dwha67r4elda4vl7m6qul5xqd.onion^
 ||cashcc2z43vh5xtj.onion^
 ||cashyjun2yp4tiub.onion^
 ||qeybpwjb7qn2ws2dein5zvsqgxral3shzsobgypzom4oihqfdlvl4uid.onion^
 ||wth474sv6ct4glwiowjipvr6ydeg6tbxlenxqibe5vno7ivmeqlumnid.onion^
-||cashcc2z43vh5xtj.onion^
 ||pppppppppnuuh5amu6ez7lfgjod2b54c4sgh25aygj56xq4d2zvuv5ad.onion^
 ||whje5cahjivo6s4ox36xrpea5gavgd45uekgaxlkocjlcxcwkedn2lad.onion^
 ||hybl2bkou7hlqzhrmhdrbmzd7olm6ovou5fq4t26yejy4a67vail5ayd.onion^
@@ -291,12 +303,10 @@
 ||tzit5v4hvxbmm6yotz46vxpzmjrulyuafthlrkglsd6vs4lxhc5n3kid.onion^
 ||cashgodr53umth4z.onion^
 ||cashgod2w7hzaeihf2d2bwd7xwtsjtbczbusbsyzqoqymks2g5l46eyd.onion^
-||cashgod2w7hzaeihf2d2bwd7xwtsjtbczbusbsyzqoqymks2g5l46eyd.onion^
 ||ihh6byubzfjqzrdo.onion^
 ||xyaukzqqcdkop4ui.onion^
 ||cashiskiw6bhe6oxuaqallrjivcqr647vmo2zhluqwmaauhguxyyztyd.onion^
 ||cashparrguzebttm7sv5zzcnudukqpbabbjqmfxelesi2t4tdtcsvpqd.onion^
-||hcutffpecnc44vef.onion^
 ||hcutffpecnc44vef.onion^
 ||n3irlpzwkcmfochhuswpcrg35z7bzqtaoffqecomrx57n3rd5jc72byd.onion^
 ||hcutfffg72zg5vqd.onion^
@@ -311,11 +321,11 @@
 ||ccmen5ivf6em3m3s.onion^
 ||gala5cdiuqxm5rws.onion^
 ||galaxyaonv32reim.onion^
-||ccguruetr5jwye5g.onion
+||ccguruetr5jwye5g.onion^
 ||bv4izty757e5g3ql.onion^
 ||hyhe5conyt6u3vmg.onion^
 ||cckingdomtmf7w7l.onion^
-||jjaxsf5zoexvg7swo25bqvaqb4yda6m2zun5wndlscxjw4u2mlw3p3qd.onion^#creditcards
+||jjaxsf5zoexvg7swo25bqvaqb4yda6m2zun5wndlscxjw4u2mlw3p3qd.onion^
 ||ccqvendwbimh6jlzbkrr75wl7kno3nd36wvalk3vefoysy2a4r6zb4yd.onion^
 ||csalryx3xenotyljyttsju6jfthrjyt6ijwd3zzykhkpyfoeao2nxaqd.onion^
 ||arq37mrqvn6hj553.onion^
@@ -329,7 +339,6 @@
 ||w7cgqtsmycxoz7gl.onion^
 ||xykxv6fmblogxgmzjm5wt6akdhm4wewiarjzcngev4tupgjlyugmc7qd.onion^
 ||gch3dyxo5zuqbrrtd64zlvzwxden4jkikyqk3ikjhggqzoxixcmq2fid.onion^
-||xykxv6fmblogxgmzjm5wt6akdhm4wewiarjzcngev4tupgjlyugmc7qd.onion^
 ||ccpaxft3yl3k2oqy.onion^
 ||t6ew32ovh6vzyqe2uzg2msvds46c7pxmlba5w46xh4bgc2rosebnmsad.onion^
 ||ccaz3dzqrouqshop.onion^
@@ -398,7 +407,7 @@
 ||trnf7mcbf6ko6h6w.onion^
 ||z6ttukngw2hlok2u.onion^
 ||amazonv6v4q25koqozui2daubqeb3hr57vqaa2ieoq67umpstqqklhad.onion^
-||jxotugbval26qqlv.onion
+||jxotugbval26qqlv.onion^
 ||escrowytu7s7rlqn.onion^
 ||darkccyg2o57udrk.onion^
 ||rq7yhshqhwnxneh6cwzoz4yi52okdtmfmmwr7pfkt6nzkysurdyzj3ad.onion^
@@ -437,7 +446,6 @@
 ||557ssqsc5py54w7ofwnlw2j2guohklywb52ymfw5v6glbyibqravwkyd.onion^
 ||wubhg4shc4vgqvv5ovm3wc2r5sj3ayr3spndew4ul3luuiwn6i7ql5yd.onion^
 ||d5ubjv46kownm4jl.onion^
-||escrowytu7s7rlqn.onion
 ||darkmarketsomqvzqfjudpd6t5eabgvvpplrbtzq6prervyogenlrlqd.onion^
 ||darknet3ysxpbjtvbtyqorzuq3bp4pk3vt4fuhqxz6h2bzj2kyjbisqd.onion^
 ||darknet4rbfizlg53dwc5lt5hj4mewcgltubcpvrfpvjavm64inaf3ad.onion^
@@ -446,7 +454,6 @@
 ||nfs6e454oyvajfro.onion^
 ||2ue7ojgbxvk232fq66ooesshnsnx7upcks35zqnucvnmag4rgcasefqd.onion^
 ||darkoddrkj3gqz7ke7nyjfkh7o72hlvr44uz5zl2xrapna4tribuorqd.onion^
-||dwforumsmrcqdnt3.onion^
 ||xilliayhoiuv5qmk.onion^
 ||dbay4btfm54y3e3i4genrwd6tnt5rsyhla3j3ml5rwaqre7k37hglcid.onion^
 ||dcukxquzkxxxfrmn.onion^
@@ -456,7 +463,6 @@
 ||leqz2cvo2keb4ota.onion^
 ||sga5n7zx6qjty7uwvkxpwstyoh73shst6mx3okouv53uks7ks47msayd.onion^
 ||dumlq77rikgevyimsj6e2cwfsueo7ooynno2rrvwmppngmntboe2hbyd.onion^
-||sga5n7zx6qjty7uwvkxpwstyoh73shst6mx3okouv53uks7ks47msayd.onion^
 ||deepgcb2qcbbfzgtpii3ltzkuefc2kwj4y6fyhrrzjnojgstkrcuk5id.onion^
 ||deepqelxz6iddqi5obzla2bbwh5ssyqqobxin27uzkr624wtubhto3ad.onion^
 ||deepmareomnk7lfunook74cpab5rhpknonqgjah4balqrfqetcrykaid.onion^
@@ -482,7 +488,6 @@
 ||deepmartmfvbijza.onion^
 ||deepmartrigqwenz.onion^
 ||deepmartyqzffl5n.onion^
-||deepmexzsejpzqid3k7knaas2p73dko6kxgpou7oey7vqtmrhopjyqyd.onion
 ||eflohoqmbewenw2vryusuvmglx75eamrluixbkuydljho47vor23o7id.onion^
 ||deepmaa4puujj27ryqmfc3kyvgxwrtt6ts3rjxdy6rodb5o6afldrvyd.onion^
 ||deepmar4ai3iff7akeuos3u3727lvuutm4l5takh3dmo3pziznl5ywqd.onion^
@@ -543,14 +548,13 @@
 ||2a2a2abbjsjcjwfuozip6idfxsxyowoi3ajqyehqzfqyxezhacur7oyd.onion^
 ||escrow2m7gowjfzh.onion^
 ||bbbps6itk4pbhuqilhengm3q625fq4ibrzdua6smjaojophaanllgpyd.onion^
-||cdwq56m2lo4eilv6khjyjr6x6ym436c3gfq2hjp3wstdezbpusb5h2qd.onion
+||cdwq56m2lo4eilv6khjyjr6x6ym436c3gfq2hjp3wstdezbpusb5h2qd.onion^
 ||escrowq5tus5jpgw.onion^
 ||254f4mpwysrovatumz6skvl44mi5nsrvjzvguokisxzdeznlc2tkmbad.onion^
 ||aestjoovxnehn5mlcnhvmyarl3oyozmqbxvmtppl65j67jazz5yu66qd.onion^
 ||5ia2ujvofvket7vy.onion^
 ||n6qisfgjauj365pxccpr5vizmtb5iavqaug7m7e4ewkxuygk5iim6yyd.onion^
 ||wges3aohuplu6he5tv4pn7sg2qaummlokimim6oaauqo2l7lbx4ufyyd.onion^
-||prepaid3jdde64ro.onion^
 ||prepaid3jdde64ro.onion^
 ||counterfxhjvtrlw.onion^
 ||eurogdhw5fxe2xjb.onion^
@@ -596,16 +600,15 @@
 ||freedomfdz7fghmw.onion^
 ||freezoneqmr32kss.onion^
 ||freezonerzqqlxd2is52vneef4qsgoqt2un7puashnkbofus2almvsid.onion^
-||lg7iwjj3ajzz2cmd.onion^
 ||cfv5uye3kk7arw45ieve3tmpymohf6w3ztc4ggutnrfjvdwhc3t27lad.onion^
-https:^^fullzcvv.to^
+||fullzcvv.to^
 ||plmhgbneq6d7atfh6h5aslastogahegnlshzgitjy6662cvatxfftbad.onion^
 ||e3bv6gcn3qjpg4kfi4qy3t7z3hzm2eoyv7o5lua2goaz6dv44f3yukyd.onion^
 ||gtl3bpvdnzijqmna2sd25ktixabzt7pval6fpkd2ur6vpov52zzv74yd.onion^
 ||3rmybxbtkb5txmqv.onion^
 ||a534p6bdxbf2niq7.onion^
 ||dbvjicoy4yvzavh5uijfjqjbbs6nv54lwmhqqqnka2o3yd4ena2cylyd.onion^
-||giftco2m2rsudvugkt2lgs75oi6xuwheso3bvurhfw7xdjwflmwmvuad.onion
+||giftco2m2rsudvugkt2lgs75oi6xuwheso3bvurhfw7xdjwflmwmvuad.onion^
 ||sbxxtg7qehc6wvhl.onion^
 ||dmriwkt7jefo5sf7vvmvvndq2lqrfe7itmntxnwfwwkrm67n4o22llyd.onion^
 ||uckm5pwta5xza7d6yx4bj32eqclgjt6zuafuatnuxt3pnldq6yntnoqd.onion^
@@ -622,7 +625,7 @@ https:^^fullzcvv.to^
 ||grymktgwyxq3sikl.onion^
 ||z7kd7qa7lndx67v5.onion^
 ||king4cbpgftym6n33soe3xhilh5txnt2sqgwnodoagd3bgqxbqhoapid.onion^
-https:^^blackmarket-guns.com^
+||blackmarket-guns.com^
 ||leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion^
 ||hackerrljqhmq6jb.onion^
 ||abouc2ostnluxlrolrrwd2lhpglg2rzo5pdk52s7zmdo2hotxl46glyd.onion^
@@ -639,14 +642,14 @@ https:^^blackmarket-guns.com^
 ||skikydknociwce5ysbefrxobjwbiv2h2vo4kpafvbepuzpzgtysmf6yd.onion^
 ||lox7ibfj7e3pw3c6.onion^
 ||morhx3irxknskwu5.onion^
-||hidden24vowyrcic.onion^forum
+||hidden24vowyrcic.onion^forum^
 ||wclekwrf2aclunlmuikf2bopusjfv66jlhwtgbiycy5nw524r6ngioid.onion^
 ||hidden24qtvlgaxp.onion^
 ||hidden24tha4plsx.onion^
 ||hidden24vowyrcic.onion^
 ||hiddenmagmteisz2.onion^
 ||hiddenmark43cbxd.onion^
-https:^^hiddenmarketplace.org^
+||hiddenmarketplace.org^
 ||hiddenuip5qlthdkbeqrpcfja4k5qr5urordvm4sm3gnz6wcy7yo5qqd.onion^
 ||u5lyidiw4lpkonoctpqzxgyk6xop7w7w3oho4dzzsi272rwnjhyx7ayd.onion^
 ||nql7pv7k32nnqor2.onion^
@@ -672,7 +675,6 @@ https:^^hiddenmarketplace.org^
 ||y3fpieiezy2sin4a.onion^
 ||sa3ut5u4qdw7yiunpdieypzsrdylhbtafyhymd75syjcn46yb5ulttid.onion^
 ||drzvwu6ljvqkpecivnz7rx2fldetutzrp23lxs5rs522iudywcsedjqd.onion^
-||hrznstuh7fklpawxt5asormu5plwkqpnymnop4iptalt67ebpu5osiad.onion^
 ||hydraruzxpnew4af.onion^
 ||icarucz2c5b5m24oqip2wjx5qehxr5haecfmgjxxt2otg45tjhlwnrid.onion^
 ||icaruhkb6sndpgz3dwibqserprytvhplize5bfznjyzu7p44xdgptvqd.onion^
@@ -681,12 +683,11 @@ https:^^hiddenmarketplace.org^
 ||fakeidsl6heqiweaaus47coxmvcpzjqjdwmf4dkagbhoqmfbuadegjid.onion^
 ||zxjac423nl7gzabqpwtikyn4cgy7veflii6kmthqahofyzv5r7gswzqd.onion^
 ||imperv4k6p6wtkoh7cnxia4slacecwclz7feqgwgbuevcv7opbvzlhqd.onion^
-||imperialsttg3tgonmwkm7m4comur5dnmlbcurjbs62isqtjgn3nh6ad.onion
+||imperialsttg3tgonmwkm7m4comur5dnmlbcurjbs62isqtjgn3nh6ad.onion^
 ||shop6bpuax4uk53slpyt56bhl43f2cefpcejwyrbtvcfugujldt3eyqd.onion^
 ||imperialjds63gjoiju3u7jsa7e6ogyepg5oq5xhzar5abzrqjzkhuad.onion^
 ||ibuyhereweeoyboidzzhuqymz4babh7fuaa6kdw6y6lzdygfomuqzyad.onion^
 ||imperialk4trdzxnpogppugbugvtce3yif62zsuyd2ag5y3fztlurwyd.onion^
-||imperi2m2v2ebxey.onion^
 ||imperi2m2v2ebxey.onion^
 ||imperia6tjbaa2lt.onion^
 ||imperialwqk43cjr.onion^
@@ -731,21 +732,20 @@ https:^^hiddenmarketplace.org^
 ||fiw27htrk5av3bnhfjtl23dn62fa6e3rwlhtvkimthy46jbuxuy3jdyd.onion^
 ||hpxzljevqzpp6s2l4ishhi4ghiyqzzcpsudinsaojpbvjxfvrl47nrid.onion^
 ||bestshop3neaglxk.onion^
-||www.legitdumps.cc
+||www.legitdumps.cc^
 ||wcg5g6tfoewzdslvmih7o2qp2ylaoql4y53bq5vo6oqorx54qzw4yvad.onion^
 ||oldecr7kb3zho273rqeye6mwk4cwpl644s6cciiqk7zf7anpao2ntvyd.onion^
 ||5j4hzexlexzqmd3f2nhortvspt3vazjv5ttdpdvj6mwkv6ajtkgnzgid.onion^
 ||liberty6o7lubin4t2nzyebylmk4l4xfw6kk2o5xhg3fahqoatfiprqd.onion^
 ||liberty4mhc252jcz6acjndbotamlajtoo43qcmz4i62lc4b2ol4aeyd.onion^
 ||liberty5wpigjwlqj7jse7y3ya2rc572n4lpwsndyuzbfqnpkxkr3sid.onion^
-||liberty6o7lubin4t2nzyebylmk4l4xfw6kk2o5xhg3fahqoatfiprqd.onion^
 ||lmoney4rw45hrqfm.onion^
 ||sw3tjrchpyalngjbvc4azbuca3qlskl6ltvh764yxsp4hinph3qx4hqd.onion^
 ||lmoneylmwki7lv4vtijsqr23p6odzpyaw3uffsbm6f5e3osy3wkrfvad.onion^
 ||lightogkkkoojt44.onion^
 ||ohvbdin6cnzzwkc65o4ocmcgxmblwpt47sdiqcambnx2qu4currvtmyd.onion^
 ||lmoneyabs5r3o6i2.onion^
-||hiddenz7c5ilffe3hq2qawguqnmffg7awyuiqmernrnvxvixyogt7dqd.onion
+||hiddenz7c5ilffe3hq2qawguqnmffg7awyuiqmernrnvxvixyogt7dqd.onion^
 ||cardedsjztm6kkxlkdfxbiyx2mpnho2ze7ttvdybeoiuwwnmhzdqgqyd.onion^
 ||2aoiednvwdnc4w2r32yoydojuu7a4jc6dtiu7bnxikhlirvjm7jxevid.onion^
 ||creditkoydvwwq2vydjfrcijdf3hia5p6xuegiyo6jyitrixfsz2d6yd.onion^
@@ -782,7 +782,6 @@ https:^^hiddenmarketplace.org^
 ||hqfld5smkr4b4xrjcco7zotvoqhuuoehjdvoin755iytmpk4sm7cbwad.onion^
 ||74ck36pbaxz7ra6n7v5pbpm5n2tsdaiy4f6p775qvjmowxged65n3cid.onion^
 ||mobil7rab6nuf7vx.onion^
-||jhi4v5rjly75ggha26cu2eeyfhwvgbde4w6d75vepwxt2zht5sqfhuqd.onion^
 ||ez37hmhem2gh3ixctfeaqn7kylal2vyjqsedkzhu4ebkcgikrigr5gid.onion^
 ||vfhn3vzvvh767fcu5l66kywdua62t5fwqjr2zrakiaq7b5hmkrb7riid.onion^
 ||4xvdmylw545kegoy.onion^
@@ -794,7 +793,7 @@ https:^^hiddenmarketplace.org^
 ||moneyhundy5im6qi.onion^
 ||u7grdclw44l44vyj.onion^
 ||monopolyberbucxu.onion^
-||monopolydc6hvkh425ov6xolmgx62q2tgown55zvhpngh75tz5xkzfyd.onion
+||monopolydc6hvkh425ov6xolmgx62q2tgown55zvhpngh75tz5xkzfyd.onion^
 ||5zoepfg7jlytj5uiile6eta64xgksai6g75dschz2dbbh7d4zr6magyd.onion^
 ||mons3lnljm5kx36ewcgum7lb32k72acflm7mflwr6o5xqosdmkynopid.onion^
 ||mesc5wozvbdqbh2y.onion^
@@ -842,7 +841,6 @@ https:^^hiddenmarketplace.org^
 ||endtovmbc5vokdpnxrhajcwgkfbkfz4wbyhbj6ueisai4prtvencheyd.onion^
 ||jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion^
 ||ow24et3tetp6tvmk.onion^
-||ow24et3tetp6tvmk.onion
 ||p2qzxkca42e3wccvqgby7jrcbzlf6g7pnkvybnau4szl5ykdydzmvbid.onion^
 ||zwf5i7hiwmffq2bl7euedg6y5ydzze3ljiyrjmm7o42vhe7ni56fm7qd.onion^
 ||opiatelimlidwmow.onion^
@@ -856,7 +854,6 @@ https:^^hiddenmarketplace.org^
 ||kgl5rmojw3kcnvqpvf4irdxow2izb2ttjbqb55yozwjxyz4wphssvlid.onion^
 ||yo5eqggt6jwrdpgfhjhifbqsevot76zqtridqwvjqd4647ccdeytvead.onion^
 ||algchxpjmp43zaoubjmrzly4uuud55afxgoyejqht7hvkeseklxzyeyd.onion^
-||upv3wvf6sikfiluy.onion^
 ||itilyljv4vf6qgqm.onion^
 ||vo4ho5pwzwp5dc26uo777mhblbs7gf5khcry7tvzvyqslwoyh5rf3gid.onion^
 ||payplnrd6rd37cqd.onion^
@@ -908,7 +905,7 @@ https:^^hiddenmarketplace.org^
 ||jn6weomv6klvnwdwcgu55miabpwklsmmyaf5qrkt4miif48hrqmvdhqd.onion^
 ||2ogmrlfzdthnwkez.onion^
 ||jn6weomv6klvnwdwcgu55miabpwklsmmyaf5qrkt4miif4shrqmvdhqd.onion^
-||2b4z3y7fq45kafqy4ygweaz5k4culbbwj6nwfvgdutltlxelurxhd6yd.onion
+||2b4z3y7fq45kafqy4ygweaz5k4culbbwj6nwfvgdutltlxelurxhd6yd.onion^
 ||vkd4tfr424by3fqnwt4uch3b2x5fgacjxqllosrpei7j3d5nktd2slyd.onion^
 ||j6hraom2nsmsansar3d2vhgowvcyqw73jqamqzdnoqbzvwbjbgn7xvad.onion^
 ||bmmegyxkzrm7u3q5ub44tn774vpzhoy2t3jpzg7c66q353uynxia5jqd.onion^
@@ -962,7 +959,6 @@ https:^^hiddenmarketplace.org^
 ||shieldvmdnxr4w4z.onion^
 ||gxut3nthkyjq5j7pd66ppfzegblxledhcfz4qs2mavfq2oym7jrcgzad.onion^
 ||ka3ds43g3wfltjn4.onion^
-||ka3ds43g3wfltjn4.onion^
 ||ab2moc6ot2wkvua7.onion^
 ||cardshopffielsxi.onion^
 ||ccshopxmco5u7j5x.onion^
@@ -977,8 +973,8 @@ https:^^hiddenmarketplace.org^
 ||r4zbmobyalfzfejwxu2633qfr6nx62khkdznqwlpc5ozkhadxpe5edqd.onion^
 ||escrow5jkmjpxprw.onion^
 ||escrown4d564qtgz.onion^
-||silkroadkaxmspva.onion
-||silkroadxjzvoyxh.onion
+||silkroadkaxmspva.onion^
+||silkroadxjzvoyxh.onion^
 ||silk4rd6h4qdy3wvz2urxvwx66l7ektov5wmpkoptmgwuldaefc55yyd.onion^
 ||silkr4lawr2zanmaqfbcpdtmybjmk2m6lu3iv5iw7jyivyz2cgt2xgid.onion^
 ||scash7dlpeejgs3gkh6ko6mc7lwcgq6swhpplbky5ulccdarpt5fyxad.onion^
@@ -1054,7 +1050,6 @@ https:^^hiddenmarketplace.org^
 ||paypaljmywe62kde6l4bzrwd2h4ltiq5tjjydf5ndhhiyu2mrlln2nid.onion^
 ||ppcentrend4erspk.onion^
 ||ppcentznbskgodcp.onion^
-||nare7pqnmnojs2pg.onion^
 ||xf2gry25d3tyxkiu2xlvczd3q7jl6yyhtpodevjugnxia2u665asozad.onion^
 ||ok3jewlqm4pwskskcupntze76ytgjuwsvtvfm44ztvf4mwb6chmiciqd.onion^
 ||qputrq3ejx42btla.onion^
@@ -1105,7 +1100,7 @@ https:^^hiddenmarketplace.org^
 ||torbuyxmkbixczyxlxdrk23l74h75gjrhshcz734fsugd3yv42dsdqqd.onion^
 ||aqdkw4qjwponmlt3.onion^
 ||ioqkxhnm3uivbtth.onion^
-||naelaxaopk2vnivj.onion
+||naelaxaopk2vnivj.onion^
 ||bitcoinzungukicl.onion^
 ||sc6q3w62pipyamkxmm2vcshopzyopohxh37gvc7gralscscmw6n6p5qd.onion^
 ||markethh52nfbvxy.onion^
@@ -1156,7 +1151,7 @@ https:^^hiddenmarketplace.org^
 ||un62d2ywi33bho53.onion^
 ||undrol7rt4yu5zzd.onion^
 ||z57whuq7jaqgmh6d.onion^
-||puyr3jb76flvqemhkllg5bttt2dmiaexs3ggmfpyewc44vt5265uuaad.onion
+||puyr3jb76flvqemhkllg5bttt2dmiaexs3ggmfpyewc44vt5265uuaad.onion^
 ||2y3kpqcdwhwemfoc.onion^
 ||ck3qwbpnu5fhtogjbq4h3knnkfjitgthdj2kxrmr5l2y7cnha4puiwqd.onion^
 ||2vxi4nmjcn6mdb2x.onion^
@@ -1174,13 +1169,11 @@ https:^^hiddenmarketplace.org^
 ||fl4bgeti2pcn26dzok47xafw6vj6fnqyxksigxuy7ohgypbnw6z36eid.onion^
 ||2pneiouz2aj27kjs.onion^
 ||venus7rnkrbtdctbdtmvydn5kvjiaqmf2kgtzfup4muavc6wx4clwyqd.onion^
-||pqqmr3p3tppwqvvapi6fa7jowrehgd36ct6lzr26qqormaqvh6gt4jyd.onion^
 ||vice2e3gr3pmaikukidllstulxvkb7a247gkguihzvyk3gqwdpolqead.onion^
 ||victory6jr5trvfbfxp2olyoqzrx5wwatf4ccayoccgfcmskf5o5osqd.onion^
 ||ovai7wvp4yj6jl3wbzihypbq657vpape7lggrlah4pl34utwjrpetwid.onion^
 ||5kpq325ecpcncl4o2xksvaso5tuydwj2kuqmpgtmu3vzfxkpiwsqpfid.onion^
 ||buyccvhbq25t5l3y.onion^
-||z2hjm7uhwisw5jm5.onion^
 ||z2hjm7uhwisw5jm5.onion^
 ||wallstyizjhkrvmj.onion^
 ||3vfws2yqv4wii54e.onion^

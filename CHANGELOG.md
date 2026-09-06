@@ -14,6 +14,45 @@ L'historique git reste la source de vérité pour ce qui précède.
 
 ### Ajouté
 
+- **`adobe.txt`** : 18 domaines repris de `Ruddernation-Designs/Adobe-URL-Block-List`,
+  non resynchronisé depuis avril 2025. 9 entrées amont sont **volontairement écartées**
+  et la raison est écrite dans le fichier : 7 adresses IP nues, inertes dans une liste
+  DNS puisqu'un client qui se connecte à une IP ne résout aucun nom, et 2 points d'accès
+  Sentry que `@@||sentry.io^$important` annule déjà — les reprendre créerait deux lignes
+  mortes, et casserait l'envoi des sourcemaps en CI si le fichier servait un jour de
+  `hosts` système, où la whitelist ne s'applique pas.
+- **`nintendo.txt`** : `nega-lp1-upload.s3.us-east-1.amazonaws.com` (seul nouveau domaine
+  de la prise en charge Switch 2 ajoutée en amont en juin 2025, le reste du trafic passant
+  par les domaines `nintendo.*` déjà listés) et `90dns.test`, qui doit répondre l'adresse
+  du serveur de test et non être bloqué, faute de quoi on n'a aucun moyen de constater que
+  le blocage s'applique. Le fichier datait de juillet 2023.
+- **`scripts/verifier-amont.py`** et un second job dans le workflow hebdomadaire :
+  compare `adobe.txt` et `nintendo.txt` à leur source amont. Sa table `EXCLUSIONS` porte
+  les entrées non reprises **avec leur raison** ; sans elle le contrôle serait rouge en
+  permanence sur des choix assumés, et un contrôle toujours rouge finit ignoré.
+
+### Corrigé
+
+- **`onion-blacklist.txt`** : 44 règles étaient inopérantes ou redondantes. 23 doublons
+  exacts, 19 règles sans `^` final (donc de portée différente du reste du fichier),
+  1 adresse écrite `…ovqdonion` sans le point avant le TLD, 1 commentaire collé à sa
+  règle sans séparateur, et 3 lignes en `https:^^domaine^` qui ne sont pas de la syntaxe
+  de filtre et ne bloquaient rien. Aucun domaine perdu, vérifié par comparaison des
+  ensembles avant/après.
+
+### À arbitrer
+
+- **`onion-blacklist.txt`** : 545 de ses 1198 règles visent des adresses `.onion` de
+  deuxième génération (16 caractères). Tor a coupé le support des services v2 en octobre
+  2021, ces adresses ne sont donc joignables par personne. Elles ne gênent pas, mais
+  représentent près de la moitié du fichier. Non supprimées ici : c'est une décision,
+  pas un correctif.
+- **`onion-blacklist.txt`** n'a aucune source amont — un seul commit `Create`, jamais
+  resynchronisé. Il n'y a donc rien à en rafraîchir automatiquement, et « ajouter les
+  nouveaux » y demanderait d'abord de choisir une source.
+
+### Ajouté (résolveurs)
+
 - **`scripts/verifier-resolveurs.py`** : vérifie que chaque entrée de `good-dns.txt`
   répond, par une vraie requête DNS décodée et non par un test de port ouvert, sur les
   trois transports (DoH, DoT, UDP). Trois verdicts et pas deux, le troisième étant

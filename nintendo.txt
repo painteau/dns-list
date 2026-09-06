@@ -35,3 +35,14 @@
 127.0.0.1 *nintendoswitch.cn
 95.216.149.205 *conntest.nintendowifi.net
 95.216.149.205 *ctest.cdn.nintendo.net
+
+# Mise a jour du 2026-09-06 depuis gitlab.com/a/90dns (amont non resynchronise
+# depuis juillet 2023). L'amont a gagne la prise en charge des serveurs Switch 2
+# en juin 2025 : le point d'envoi NEGA ci-dessous en est le seul nouveau domaine,
+# le reste du trafic Switch 2 passant par les domaines nintendo.* deja listes.
+127.0.0.1 *nega-lp1-upload.s3.us-east-1.amazonaws.com
+
+# Domaine de verification fourni par 90DNS : il doit repondre l'adresse du
+# serveur de test, et non etre bloque, sinon on n'a aucun moyen de constater
+# que le blocage s'applique vraiment.
+95.216.149.205 *90dns.test

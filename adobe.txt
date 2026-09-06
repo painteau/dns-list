@@ -995,3 +995,45 @@
 0.0.0.0 ic.adobe.io
 0.0.0.0 gw8gfjbs05.adobe.io
 0.0.0.0 ph0f2h2csf.adobe.io
+
+# Mise a jour du 2026-09-06 depuis Ruddernation-Designs/Adobe-URL-Block-List
+# (le fichier n'avait pas ete resynchronise depuis avril 2025).
+#
+# Attention si quelque chose casse : armmf.adobe.com sert aussi les mises a jour
+# d'Acrobat Reader, et a1815.dscr.akamai.net est un alias de peripherie Akamai
+# generique, donc le seul de ce lot qui puisse emporter du trafic non-Adobe.
+# Ce sont les deux premieres lignes a retirer en cas de degat collateral.
+0.0.0.0 0ojupfm51u.adobe.io
+0.0.0.0 3d5vic7so2.adobestats.io
+0.0.0.0 a1815.dscr.akamai.net
+0.0.0.0 aepxlg.adobe.com
+0.0.0.0 armmf.adobe.com
+0.0.0.0 cc-api-data-stage.adobe.io
+0.0.0.0 cetufizozr12.mw1i8.adobestats.io
+0.0.0.0 hbc.adobe.io
+0.0.0.0 ims-na1.adobelogin.com.cdn.cloudflare.net
+0.0.0.0 jgletrkp.mw1i8.adobestats.io
+0.0.0.0 odin.adobe.com
+0.0.0.0 rekkvg49.mw1i8.adobestats.io
+0.0.0.0 resources.licenses.adobe.com
+0.0.0.0 ssrtnxk6uq6x.sf7e3.adobestats.io
+0.0.0.0 v62vpzg2av.adobestats.io
+0.0.0.0 wtl71c0ylo.adobestats.io
+0.0.0.0 x0850n5e.1q9cz.adobestats.io
+0.0.0.0 y1sg2131f84.mw1i8.adobestats.io
+
+# Volontairement NON repris de l'amont, pour qu'une comparaison future sache
+# pourquoi ces lignes manquent plutot que de les rajouter chaque fois :
+#
+# - 7 adresses IP nues (13.35.238.72, 13.35.238.103, 13.35.238.108, 18.154.7.93,
+#   23.22.254.206, 3.209.122.138, 54.144.73.197). Une entree de type hosts associe
+#   un NOM a une adresse ; y mettre une adresse des deux cotes ne bloque rien,
+#   ni via AdGuard ni via un fichier hosts systeme, puisqu'un client qui se
+#   connecte directement a une IP ne resout aucun nom. Filtrer ces adresses
+#   releve du pare-feu, pas d'une liste DNS.
+# - o1383653.ingest.sentry.io et o987771.ingest.us.sentry.io, couverts par la
+#   regle @@||sentry.io^$important de whitelist.txt, posee expres parce que le
+#   blocage de Sentry cassait l'envoi des sourcemaps en CI. Les ajouter ici
+#   creerait une contradiction interne, gagnante pour la whitelist, donc deux
+#   lignes mortes ; et si ce fichier est un jour utilise comme hosts systeme,
+#   ou la whitelist ne s'applique pas, elles casseraient la CI pour de bon.
