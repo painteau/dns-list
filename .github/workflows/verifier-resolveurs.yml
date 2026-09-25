@@ -33,7 +33,7 @@ jobs:
     name: good-dns.txt repond encore
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Verifier que curl parle HTTP/2
         # Sans client HTTP/2, les points d'acces DoH qui l'exigent (Quad9, FDN)
@@ -71,7 +71,7 @@ jobs:
     # Job separe du precedent, volontairement : une source amont injoignable ne
     # doit pas masquer l'etat des resolveurs, et inversement.
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Comparer avec les projets amont
         run: python3 scripts/verifier-amont.py
