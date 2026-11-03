@@ -13,6 +13,7 @@ L'historique git reste la source de vérité pour ce qui précède.
 ## [Unreleased]
 
 ### Modifié
+- `.gitignore` : toute variante `.env.*` est ignorée, sauf `.env.example`. Une copie de sauvegarde `.env.bak-*` porte les mêmes secrets que `.env` (règle de parc du 2026-11-03).
 
 - **`actions/checkout` et `actions/setup-node` passent en v7** dans les workflows : les versions
   posées déclaraient `using: node20`, déprécié et déjà forcé sur Node 24 par GitHub. Les quatre
