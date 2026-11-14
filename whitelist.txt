@@ -106,6 +106,7 @@
 @@||e1102.a.akamaiedge.net^$important
 
 ! == Self tracking ==
+@@||anltcs.breizhzion.com^$important
 @@||analytics.gochu.fr^$important
 
 ! == Google AdMob (app management) ==

@@ -12,6 +12,10 @@ L'historique git reste la source de vérité pour ce qui précède.
 
 ## [Unreleased]
 
+### Ajouté
+
+- `whitelist.txt` : `anltcs.breizhzion.com`, nouveau nom de Plausible (2026-11-14). `analytics.gochu.fr` reste autorisé, il sert d'alias le temps que les anciennes versions de l'app Mworago disparaissent.
+
 ### Modifié
 - `.gitignore` : toute variante `.env.*` est ignorée, sauf `.env.example`. Une copie de sauvegarde `.env.bak-*` porte les mêmes secrets que `.env` (règle de parc du 2026-11-03).
 
